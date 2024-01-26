@@ -24,7 +24,7 @@ export default function CardExperience({
       </div>
       <div className="flex flex-col justify-start items-start gap-5">
         <h5 className="text-white text-sm mt-5">{data}</h5>
-        <p className="text-gray-300">{description}</p>
+        <p className="text-white">{description}</p>
       </div>
     </div>
   );
