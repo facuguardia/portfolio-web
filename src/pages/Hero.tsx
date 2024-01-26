@@ -15,7 +15,7 @@ export const Hero = () => {
       </div>
       <div className="py-10 ml-5">
         <h1 className="text-4xl text-left">
-          Hello I'am <strong>Facundo. Fronted</strong>{" "}
+          Hello I´am <strong>Facundo. Fronted</strong>{" "}
           <span className="text-white bg-black px-2">Developer</span> <br />
           Based in <strong>Argentina</strong>
         </h1>
@@ -24,7 +24,7 @@ export const Hero = () => {
         <p className="text-left text-xl ml-5">
           I am a Frontend Developer based in Argentina. I have serious passion
           for UI effects, animations and creating intuitive, dynamic user
-          experiences. Let's make something special.
+          experiences. Let´s make something special.
         </p>
       </div>
       <div className="flex text-left gap-6 pl-5 pt-8">

@@ -18,7 +18,7 @@ export const About = () => {
           About <strong>Me</strong>
         </h1>
         <p className="text-gray-600 mt-5">
-          Hello! I'm Facundo, a passionate web and mobile developer with a
+          Hello! I´m Facundo, a passionate web and mobile developer with a
           unique focus on turning ideas into captivating digital experiences. My
           proficiency with technologies like React and React Native, backed by a
           deep understanding of JavaScript, enables me to create solutions that
@@ -37,9 +37,9 @@ export const About = () => {
           <strong>Turning Your Vision into Reality</strong>
           <br />
           <br />
-          If you're looking for a passionate digital architect, I'm here to take
-          your vision to the next level. Let's build digital experiences that
-          exceed expectations with style. Let's talk about your project and
+          If you´re looking for a passionate digital architect, I´m here to take
+          your vision to the next level. Let´s build digital experiences that
+          exceed expectations with style. Let´s talk about your project and
           bring your ideas to life! Thanks for visiting; I look forward to
           working with you!
         </p>
