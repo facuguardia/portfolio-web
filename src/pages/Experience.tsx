@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FcAndroidOs } from "react-icons/fc";
 import { FcCommandLine } from "react-icons/fc";
 
-export const Experience = () => {
+function Experience() {
   return (
     // TODO: Completar información
     <div className="bg-black w-screen h-[100%] flex flex-col items-center pt-16 pb-10">
@@ -42,3 +42,5 @@ export const Experience = () => {
     </div>
   );
 };
+
+export default Experience;

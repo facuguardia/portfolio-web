@@ -15,7 +15,7 @@ import {
 
 import CardSkills from '@/components/CardSkills'
 
-export const Skills = () => {
+function Skills() {
   return (
     <div className='flex flex-col justify-center items-center mt-16 mb-10'>
       <h1 className='text-2xl pb-10'>My<strong> Skills</strong></h1>
@@ -34,3 +34,5 @@ export const Skills = () => {
     </div>
   )
 }
+
+export default Skills

@@ -7,7 +7,7 @@ import Image1 from "../assets/dashboard.png"
 import Image2 from "../assets/spotify.png"
 import Image3 from "../assets/shop-market.png"
 
-export const Project = () => {
+function Project() {
   return (
     <div className="bg-black w-screen flex flex-col items-center pt-16 pb-10">
       <h1 className="text-2xl text-white">My <strong>Projects</strong></h1>
@@ -92,3 +92,5 @@ export const Project = () => {
     </div>
   );
 };
+
+export default Project;

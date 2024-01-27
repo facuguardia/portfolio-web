@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import AboutImg from "../assets/about.png";
 
-export const About = () => {
+function About() {
   return (
     <div className="px-5 py-10">
       <div className="flex flex-col items-center">
@@ -46,4 +46,6 @@ export const About = () => {
       </div>
     </div>
   );
-};
+}
+
+export default About;
