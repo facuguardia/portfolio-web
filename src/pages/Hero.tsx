@@ -14,8 +14,8 @@ import SocialButtons from "@/components/SocialButtons";
 
 function Hero() {
   return (
-    <div className="flex flex-col">
-      <div className="flex justify-center items-center pt-10">
+    <div id="hero" className="flex flex-col">
+      <div className="flex justify-center items-center pt-24">
         <Image src={Boy} alt="Hero" width={343} height={350} />
       </div>
       <div className="py-10 ml-5">
@@ -39,13 +39,21 @@ function Hero() {
         </Link>
 
         {/* instagram */}
-        <SocialButtons icon={RiInstagramFill} size={25} />
+        <Link href="https://www.instagram.com/facu_guardia/" target="_blank">
+          <SocialButtons icon={RiInstagramFill} size={25} />
+        </Link>
 
         {/* github */}
-        <SocialButtons icon={RiGithubFill} size={25} />
-
+        <Link href="https://github.com/facuguardia" target="_blank">
+          <SocialButtons icon={RiGithubFill} size={25} />
+        </Link>
         {/* linkedin */}
-        <SocialButtons icon={RiLinkedinFill} size={25} />
+        <Link
+          href="https://www.linkedin.com/in/facu-guardia/"
+          target="_blank"
+        >
+          <SocialButtons icon={RiLinkedinFill} size={25} />
+        </Link>
       </div>
     </div>
   );

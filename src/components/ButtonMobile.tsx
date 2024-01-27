@@ -21,7 +21,7 @@ export const ButtonMobile = () => {
       <nav className="h-screen w-screen flex flex-col justify-center items-center">
         {/* Items 1 */}
         <Link
-          href="/"
+          href="#about"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
@@ -31,7 +31,7 @@ export const ButtonMobile = () => {
         </Link>
         {/* Items 2 */}
         <Link
-          href="/about"
+          href="#skills"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
@@ -41,7 +41,7 @@ export const ButtonMobile = () => {
         </Link>
         {/* Items 3 */}
         <Link
-          href="/resume"
+          href="#projects"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
@@ -51,12 +51,12 @@ export const ButtonMobile = () => {
         </Link>
         {/* Items 4 */}
         <Link
-          href="/projects"
+          href="#experience"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
           <span className="text-2xl font-medium flex items-center gap-3">
-            Contact Me
+            Experience
           </span>
         </Link>
       </nav>
@@ -65,7 +65,7 @@ export const ButtonMobile = () => {
         onClick={() => setMenu(!menu)}
         className="lg:hidden fixed right-4 top-4 text-xl p-2.5 rounded-full"
       >
-        {menu ? <RiCloseFill size={30} className="text-white" /> : <RiMenuFill size={30} className="bg-white"/>}
+        {menu ? <RiCloseFill size={30} className="text-white" /> : <RiMenuFill size={30} />}
       </button>
     </div>
   );
