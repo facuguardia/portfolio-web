@@ -35,7 +35,7 @@ export const CardProject = ({
           <h1 className="text-white text-xl font-semibold">{title}</h1>
         </div>
         <div>
-          <p className="text-gray-500">{description}</p>
+          <p className="text-gray-500 mr-5">{description}</p>
         </div>
         <div className="flex justify-start items-center gap-3">
           <Link
