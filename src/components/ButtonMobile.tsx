@@ -46,7 +46,7 @@ export const ButtonMobile = () => {
           onClick={closeMenu}
         >
           <span className="text-2xl font-medium flex items-center gap-3">
-            Project
+            Projects
           </span>
         </Link>
         {/* Items 4 */}

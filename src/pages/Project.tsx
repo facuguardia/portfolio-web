@@ -19,11 +19,11 @@ function Project() {
       </h1>
       {/* Project 1 */}
       <div className="flex flex-col items-center">
-        <div className="mt-10 rounded-xl border border-white">
+        <div className="w-[90%] mt-10 rounded-xl border border-white">
           <Image
             src={Image1}
             alt="image project"
-            width={400}
+            width={390}
             height={398}
             className="rounded-xl"
           />

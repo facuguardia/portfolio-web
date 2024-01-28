@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import {
-  RiFacebookCircleLine,
+  RiWhatsappFill,
   RiInstagramFill,
   RiGithubFill,
   RiLinkedinFill,
@@ -26,18 +26,16 @@ function Hero() {
       </div>
       <div>
         <p className="text-left text-xl mx-5">
-          Soy un desarrollador Fullstack con sede en Argentina. Mi enfoque se
-          centra en los efectos de interfaz de usuario, animaciones y la
-          creación de experiencias de usuario intuitivas y dinámicas. Estoy
-          listo para colaborar en algo especial.
+          Soy un Desarrollador Fullstack con sede en Argentina, especializado en
+          la creación integral de aplicaciones. Mi experiencia abarca tanto el
+          diseño del frontend como el desarrollo del backend, incluyendo la
+          conexión con servicios de bases de datos, y todo ello utilizando
+          JavaScript como mi lenguaje principal. Mi enfoque se centra en la
+          mejora de la interfaz de usuario, la implementación de animaciones y
+          la creación de experiencias dinámicas e intuitivas.
         </p>
       </div>
       <div className="flex text-left gap-6 pl-5 pt-8">
-        {/* faceboock */}
-        <Link href="https://www.facebook.com/facu.guardia.86" target="_blank">
-          <SocialButtons icon={RiFacebookCircleLine} size={25} />
-        </Link>
-
         {/* instagram */}
         <Link href="https://www.instagram.com/facu_guardia/" target="_blank">
           <SocialButtons icon={RiInstagramFill} size={25} />
@@ -47,12 +45,15 @@ function Hero() {
         <Link href="https://github.com/facuguardia" target="_blank">
           <SocialButtons icon={RiGithubFill} size={25} />
         </Link>
+
         {/* linkedin */}
-        <Link
-          href="https://www.linkedin.com/in/facu-guardia/"
-          target="_blank"
-        >
+        <Link href="https://www.linkedin.com/in/facu-guardia/" target="_blank">
           <SocialButtons icon={RiLinkedinFill} size={25} />
+        </Link>
+
+        {/* whatsapp */}
+        <Link href="https://bit.ly/wsp-dev" target="_blank">
+          <SocialButtons icon={RiWhatsappFill} size={25} />
         </Link>
       </div>
     </div>
