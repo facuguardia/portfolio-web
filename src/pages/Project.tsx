@@ -1,12 +1,8 @@
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-
-import { BiLinkExternal, BiLogoGithub } from "react-icons/bi";
 
 import Image1 from "../assets/project-1.jpg";
-import Image2 from "../assets/project-4.jpg";
-import Image3 from "../assets/project-2.jpeg";
+import Image2 from "../assets/project-2.jpg";
+import Image3 from "../assets/project-3.jpeg";
 import { CardProject } from "@/components/CardProject";
 
 function Project() {

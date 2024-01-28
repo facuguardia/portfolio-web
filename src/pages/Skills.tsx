@@ -5,7 +5,6 @@ import {
   SiNextdotjs,
   SiChakraui,
   SiTailwindcss,
-  SiFramer,
   SiGithub,
   SiFigma,
   SiTypescript,
