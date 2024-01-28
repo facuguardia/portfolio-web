@@ -1,68 +1,59 @@
-"use client";
-
+import React from 'react'
 import Link from "next/link";
-import Image from "next/image";
-import { SiGooglechrome, SiGithub } from "react-icons/si";
+import Image, { StaticImageData } from "next/image";
+
+import { BiLinkExternal, BiLogoGithub } from "react-icons/bi";
 
 interface CardProjectProps {
-  data: any;
+  id: string;
+  title: string;
+  description: string;
+  urlDeploy: string;
+  urlGithub: string;
+  image: StaticImageData;
 }
 
-export const CardProject = ({ data }: CardProjectProps) => {
-  // // Animations
-  // const imgProduct1 = {
-  //   hidden: {
-  //     opacity: 0,
-  //     y: "400px",
-  //   },
-  //   show: {
-  //     opacity: 1,
-  //     y: 0,
-  //     transition: {
-  //       duration: 1,
-  //       delay: 0.1,
-  //       ease: "easeInOut",
-  //     },
-  //   },
-  // };
-
+export const CardProject = ({ id, title, description, urlDeploy, urlGithub, image }: CardProjectProps) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-      {/* Cards */}
-      {data.map((project: any) => {
-        const { fields: projectFields, imageUrl } = project;
-
-        return (
-          <div
-            key={project.sys.id}
-            className="col-span-1 p-4 bg-gray-800/70 rounded-md"
-          >
-            <div className="relative">
-              <Image
-                src={imageUrl}
-                alt="imagen descriptiva de la aplicación"
-                width={500}
-                height={300}
-                className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-md"
-              />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-green-500 bg-gray-900 opacity-0 hover:opacity-100 cursor-pointer">
-                <h1 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1">
-                  {projectFields.title}
-                </h1>
-                <p className="leading-relaxed">{projectFields.description}</p>
-                <div className="flex justify-center mt-5 gap-8">
-                  <Link href={projectFields.urlDeploy} target="_blank">
-                    <SiGooglechrome className="text-4xl text-gray-300 hover:text-gray-600" />
-                  </Link>
-                  <Link href={projectFields.urlGithub} target="_blank">
-                    <SiGithub className="text-4xl text-gray-300 hover:text-gray-600" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        );
-      })}
-    </div>
-  );
-};
+    <div className="flex flex-col items-center">
+<div className="w-[90%] mt-10 rounded-xl border border-white">
+  <Image
+    src={image}
+    alt="image project"
+    width={390}
+    height={398}
+    className="rounded-xl"
+  />
+</div>
+<div className="flex flex-col items-start gap-5 py-5 px-5">
+  <div className="">
+    <h2 className="text-white text-xl font-semibold">{id}</h2>
+  </div>
+  <div>
+    <h1 className="text-white text-xl font-semibold">{title}</h1>
+  </div>
+  <div>
+    <p className="text-gray-500">
+      {description}
+    </p>
+  </div>
+  <div className="flex justify-start items-center gap-3">
+    <Link
+      href={urlDeploy}
+      target="_blank"
+      className="hover:text-blue-500"
+    >
+      <BiLinkExternal size={20} className="text-white" />
+    </Link>
+    <Link
+      href={urlGithub}
+      target="_blank"
+      className="hover:text-blue-500"
+    >
+      <BiLogoGithub size={20} className="text-white" />
+    </Link>
+  </div>
+</div>
+</div>
+  )
+}
