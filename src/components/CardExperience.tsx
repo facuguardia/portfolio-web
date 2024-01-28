@@ -17,7 +17,7 @@ export default function CardExperience({
   data,
 }: CardExperienceProps) {
   return (
-    <div className="w-80 md:w-[95%] h-auto p-5 flex flex-col items-start border border-white rounded-md">
+    <div className="md:w-[90%] p-5 flex flex-col items-center md:items-start border border-white rounded-md">
       <div className="flex items-center gap-5">
         <Icon size={size} className="hover:text-white" />
         <h1 className="text-white text-xl font-semibold">{title}</h1>

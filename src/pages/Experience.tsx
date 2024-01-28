@@ -8,11 +8,11 @@ import { FcCommandLine } from "react-icons/fc";
 function Experience() {
   return (
     // TODO: Completar información
-    <div id="experience"  className="bg-black w-screen h-[100%] flex flex-col items-center pt-24 pb-10">
+    <div id="experience"  className="bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-10">
       <h1 className="text-2xl text-white">
         My<strong> Experience</strong>
       </h1>
-      <div className="mt-10 md:flex md:justify-center">
+      <div className="w-[90%] mt-10 md:flex md:justify-center">
         <CardExperience
           title="Mobile Developer - React Native"
           data="Nov 2023 - Presente"
@@ -21,7 +21,7 @@ function Experience() {
           size={40}
         />
       </div>
-      <div className="mt-10 md:flex md:justify-center">
+      <div className="w-[90%] mt-10 md:flex md:justify-center">
         <CardExperience
           title="Frontend Web Developer - React.Js"
           data="Dic 2022 - Nov 2023"
@@ -30,7 +30,7 @@ function Experience() {
           size={30}
         />
       </div>
-      <div className="mt-10 md:flex md:justify-center ">
+      <div className="w-[90%] mt-10 md:flex md:justify-center ">
         <CardExperience
           title="Fullstack Developer - React.Js & Node.Js"
           data="Sep 2022 - Dic 2022"

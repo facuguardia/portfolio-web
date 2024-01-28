@@ -8,7 +8,7 @@ import Project from "../pages/Project";
 
 export default function Home() {
   return (
-    <div className="w-screen">
+    <div className="overflow-x-hidden">
       <Hero />
       <Skills />
       <Experience />

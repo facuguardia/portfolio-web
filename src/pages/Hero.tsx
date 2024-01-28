@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -24,7 +24,10 @@ function Hero() {
   }, []);
 
   return (
-    <div id="hero" className="lg:px-20 lg:pt-16  flex flex-col lg:flex-row-reverse">
+    <div
+      id="hero"
+      className="lg:px-20 lg:pt-16  flex flex-col lg:flex-row-reverse"
+    >
       <div className="lg:w-[50%] flex justify-center items-center pt-24">
         {isDesktop ? (
           <Image src={Boy} alt="Hero" width={889} height={596} />
@@ -35,13 +38,19 @@ function Hero() {
       <div className="lg:w-[60%] lg:flex lg:flex-col lg:justify-center lg:items-start">
         <div className="py-10 ml-5">
           <h1 className="text-4xl text-left">
-            Hola, soy <strong>Facundo. Fullstack</strong> <br />
+            Hola, soy <strong>Facundo. Frontend</strong> <br />
             <span className="text-white bg-black px-2">Developer</span> <br />
           </h1>
         </div>
         <div>
           <p className="text-left text-xl mx-5">
-          Soy un Desarrollador Fullstack con sede en Argentina. Con experiencia en la creación integral de aplicaciones, abarcando tanto el diseño del frontend como el desarrollo del backend. Con JavaScript como mi lenguaje principal, me enfoco en mejorar la interfaz de usuario, implementar animaciones y crear experiencias dinámicas e intuitivas.
+            Mi enfoque es convertir ideas en experiencias digitales
+            cautivadoras. Creo en la transparencia y colaboración, garantizando
+            resultados extraordinarios a través de la excelencia y la
+            comunicación abierta. Si buscas un arquitecto digital apasionado,
+            estoy aquí para llevar tu visión al siguiente nivel. ¡Hablemos sobre
+            tu proyecto y demos vida a tus ideas! <br />
+            <br /> <strong>¡Convierte tu visión en realidad conmigo!</strong>
           </p>
         </div>
         <div className="flex text-left gap-6 pl-5 pt-8">
