@@ -12,7 +12,7 @@ function Experience() {
       <h1 className="text-2xl text-white">
         My<strong> Experience</strong>
       </h1>
-      <div className="mt-10">
+      <div className="mt-10 md:flex md:justify-center">
         <CardExperience
           title="Mobile Developer - React Native"
           data="Nov 2023 - Presente"
@@ -21,7 +21,7 @@ function Experience() {
           size={40}
         />
       </div>
-      <div className="mt-10 bg-gray-900/40">
+      <div className="mt-10 md:flex md:justify-center">
         <CardExperience
           title="Frontend Web Developer - React.Js"
           data="Dic 2022 - Nov 2023"
@@ -30,7 +30,7 @@ function Experience() {
           size={30}
         />
       </div>
-      <div className="mt-10">
+      <div className="mt-10 md:flex md:justify-center ">
         <CardExperience
           title="Fullstack Developer - React.Js & Node.Js"
           data="Sep 2022 - Dic 2022"

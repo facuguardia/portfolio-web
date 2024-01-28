@@ -21,9 +21,9 @@ import CardSkills from '@/components/CardSkills'
 
 function Skills() {
   return (
-    <div id="skills" className='flex flex-col justify-center items-center pt-24 pb-10'>
+    <div id="skills" className='w-scrren flex flex-col justify-center items-center pt-24 pb-10'>
       <h1 className='text-2xl pb-10'>My<strong> Skills</strong></h1>
-      <div className='grid grid-cols-2 gap-8'>
+      <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 px-5'>
         <CardSkills icon={SiJavascript} size={50} title='Javascript' />
         <CardSkills icon={SiTypescript} size={50} title='Typescript' />
         <CardSkills icon={SiReact} size={50} title='React' />
