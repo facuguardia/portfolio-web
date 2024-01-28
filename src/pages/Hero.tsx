@@ -26,7 +26,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="lg:px-20 lg:pt-16  flex flex-col lg:flex-row-reverse"
+      className="lg:px-20 lg:pt-16 flex flex-col lg:flex-row-reverse"
     >
       <div className="lg:w-[50%] flex justify-center items-center pt-24">
         {isDesktop ? (
@@ -45,11 +45,11 @@ function Hero() {
         <div>
           <p className="text-left text-xl mx-5">
             Mi enfoque es convertir ideas en experiencias digitales
-            cautivadoras. Creo en la transparencia y colaboración, garantizando
-            resultados extraordinarios a través de la excelencia y la
-            comunicación abierta. Si buscas un arquitecto digital apasionado,
-            estoy aquí para llevar tu visión al siguiente nivel. ¡Hablemos sobre
-            tu proyecto y demos vida a tus ideas! <br />
+            cautivadoras, garantizando resultados extraordinarios. Si buscas un
+            arquitecto digital apasionado, estoy aquí para llevar tu visión al
+            siguiente nivel. Hablemos sobre tu proyecto y demos vida a tus
+            ideas...
+            <br />
             <br /> <strong>¡Convierte tu visión en realidad conmigo!</strong>
           </p>
         </div>
