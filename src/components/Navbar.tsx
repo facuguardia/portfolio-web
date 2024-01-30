@@ -34,7 +34,7 @@ export const Navbar = () => {
         </nav>
         <div className="bg-black text-white font-medium py-2 px-3 rounded-sm">
           <Link
-            href="https://1drv.ms/b/s!Aqsi3vU5uRP4nIRW3Bhq6F59gWbsrQ?e=JMvvB2"
+            href="https://1drv.ms/b/s!Aqsi3vU5uRP4nIR--g6j2vOvQBAH_Q?e=E29Wiz"
             target="_blank"
           >
             <Buttons title={"Resumen"} styles={"flex items-center gap-2"} />
