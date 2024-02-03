@@ -26,7 +26,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="lg:px-20 lg:pt-16 flex flex-col lg:flex-row-reverse"
+      className="flex flex-col lg:px-20 lg:pt-16 lg:flex-row-reverse"
     >
       <div className="lg:w-[50%] flex justify-center items-center pt-24">
         {isDesktop ? (
@@ -37,13 +37,13 @@ function Hero() {
       </div>
       <div className="lg:w-[60%] lg:flex lg:flex-col lg:justify-center lg:items-start">
         <div className="py-10 ml-5">
-          <h1 className="text-4xl text-left">
+          <h1 className="text-4xl text-left leading-[140%]">
             Hola, soy <strong>Facundo. Frontend</strong> <br />
-            <span className="text-white bg-black px-2">Developer</span> <br />
+            <span className="px-2 text-white bg-black">Developer</span> <br />
           </h1>
         </div>
         <div>
-          <p className="text-left text-xl mx-5">
+          <p className="mx-5 text-xl text-left">
             Mi enfoque es convertir ideas en experiencias digitales
             cautivadoras, garantizando resultados extraordinarios. Si buscas un
             arquitecto digital apasionado, estoy aquí para llevar tu visión al
@@ -53,7 +53,7 @@ function Hero() {
             <br /> <strong>¡Convierte tu visión en realidad conmigo!</strong>
           </p>
         </div>
-        <div className="flex text-left gap-6 pl-5 pt-8">
+        <div className="flex gap-6 pt-8 pl-5 text-left">
           {/* instagram */}
           <Link href="https://www.instagram.com/facu_guardia/" target="_blank">
             <SocialButtons icon={RiInstagramFill} size={25} />

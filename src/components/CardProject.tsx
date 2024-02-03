@@ -20,24 +20,24 @@ export const CardProject = ({
   image,
 }: CardProjectProps) => {
   return (
-    <div className="flex flex-col md:flex-row-reverse md:justify-center items-start md:items-center mx-5">
+    <div className="flex flex-col items-start mx-5 md:flex-row-reverse md:justify-center md:items-center">
       <div className="w-[80%] md:w-[40%] mt-10 rounded-xl border border-white">
         <Image
           src={image}
           alt="image project"
           width={390}
           height={398}
-          className="rounded-xl w-screen"
+          className="w-screen rounded-xl"
         />
       </div>
       <div className="w-[100%] md:w-[50%] flex flex-col items-start gap-5 py-5">
         <div>
-          <h1 className="text-white text-xl font-semibold">{title}</h1>
+          <h1 className="text-xl font-semibold text-white">{title}</h1>
         </div>
         <div>
-          <p className="text-gray-500 mr-5">{description}</p>
+          <p className="mr-5 text-gray-500">{description}</p>
         </div>
-        <div className="flex justify-start items-center gap-3">
+        <div className="flex items-center justify-start gap-3">
           <Link
             href={urlDeploy}
             target="_blank"

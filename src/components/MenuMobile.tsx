@@ -6,7 +6,7 @@ import { ButtonMobile } from "../components/ButtonMobile";
 
 export const MenuMobile = () => {
   return (
-    <div className="lg:hidden flex justify-between items-center py-4 px-3 fixed top-0 left-0 right-0 bg-white">
+    <div className="fixed top-0 left-0 right-0 flex items-center justify-between px-3 py-4 bg-white lg:hidden">
       <div className="mt-3 lg:mt-0">
         <Link href="#hero">
           <Image src={Logo} alt="Logo" width={200} height={50} />

@@ -14,10 +14,10 @@ function About() {
         />
       </div>
       <div className="mt-10 lg:mt-0 items-start lg:w-[50%]">
-        <h1 className="text-2xl py-5">
+        <h1 className="py-5 text-2xl">
           About <strong>Me</strong>
         </h1>
-        <p className="text-gray-600 mt-5">
+        <p className="mt-5 text-gray-600">
           ¡Hola! Soy Facundo, un apasionado desarrollador web y móvil con un
           enfoque único en convertir ideas en experiencias digitales
           cautivadoras. Mi destreza con tecnologías como React y React Native,

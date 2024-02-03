@@ -18,14 +18,14 @@ export const ButtonMobile = () => {
         menu ? "top-0" : "top-full"
       }`}
     >
-      <nav className="h-screen w-screen flex flex-col justify-center items-center">
+      <nav className="flex flex-col items-center justify-center w-screen h-screen">
         {/* Items 1 */}
         <Link
           href="#about"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
-          <span className="text-2xl font-medium flex items-center gap-3">
+          <span className="flex items-center gap-3 text-2xl font-medium">
             About Me
           </span>
         </Link>
@@ -35,7 +35,7 @@ export const ButtonMobile = () => {
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
-          <span className="text-2xl font-medium flex items-center gap-3">
+          <span className="flex items-center gap-3 text-2xl font-medium">
             Skills
           </span>
         </Link>
@@ -45,7 +45,7 @@ export const ButtonMobile = () => {
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
-          <span className="text-2xl font-medium flex items-center gap-3">
+          <span className="flex items-center gap-3 text-2xl font-medium">
             Projects
           </span>
         </Link>
@@ -55,7 +55,7 @@ export const ButtonMobile = () => {
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
-          <span className="text-2xl font-medium flex items-center gap-3">
+          <span className="flex items-center gap-3 text-2xl font-medium">
             Experience
           </span>
         </Link>

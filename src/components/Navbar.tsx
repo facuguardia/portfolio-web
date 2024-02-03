@@ -7,15 +7,15 @@ import { Buttons } from "../components/Buttons";
 
 export const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 right-0 bg-white z-10">
-      <div className="hidden lg:flex justify-evenly items-center py-4">
+    <div className="fixed top-0 left-0 right-0 z-10 bg-white">
+      <div className="items-center hidden py-4 lg:flex justify-evenly">
         <div>
           <Link href="#hero">
             <Image src={Logo} alt="Logo" width={200} height={50} />
           </Link>
         </div>
         <nav>
-          <ul className="flex justify-center items-center gap-5 font-medium">
+          <ul className="flex items-center justify-center gap-5 font-medium">
             <Link href="#about">
               <li className="hover:underline decoration-black decoration-2">
                 About Me
@@ -32,7 +32,7 @@ export const Navbar = () => {
             </Link>
           </ul>
         </nav>
-        <div className="bg-black text-white font-medium py-2 px-3 rounded-sm">
+        <div className="px-3 py-2 font-medium text-white bg-black rounded-sm">
           <Link
             href="https://1drv.ms/b/s!Aqsi3vU5uRP4nIR--g6j2vOvQBAH_Q?e=E29Wiz"
             target="_blank"

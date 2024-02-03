@@ -9,7 +9,7 @@ function Project() {
   return (
     <div
       id="projects"
-      className="bg-black w-screen flex flex-col items-center pt-24 pb-10"
+      className="flex flex-col items-center w-screen pt-24 pb-10 bg-black"
     >
       <h1 className="text-2xl text-white">
         My <strong>Projects</strong>
