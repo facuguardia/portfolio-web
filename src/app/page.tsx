@@ -8,7 +8,7 @@ import Project from "../pages/Project";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <Hero />
       <Skills />
       <Experience />
