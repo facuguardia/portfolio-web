@@ -4,16 +4,17 @@ import AboutImg from "../assets/about.png";
 
 function About() {
   return (
-    <div id="about" className="px-5 pt-24 pb-10 lg:flex">
-      <div className="flex flex-col lg:justify-center items-center lg:w-[50%]">
+    <div id="about" className="container mx-auto px-5 lg:px-20 pt-24 pb-10 lg:flex lg:justify-center lg:items-center">
+      <div className="flex flex-col lg:justify-center items-center lg:w-[40%]">
         <Image
           src={AboutImg}
           alt="Picture of the author"
           width={343}
           height={374}
+          className="w-[60%] lg:w-[85%] "
         />
       </div>
-      <div className="mt-10 lg:mt-0 items-start lg:w-[50%]">
+      <div className="mt-10 lg:mt-0 items-start w-[100%] lg:w-[60%]">
         <h1 className="py-5 text-2xl">
           About <strong>Me</strong>
         </h1>

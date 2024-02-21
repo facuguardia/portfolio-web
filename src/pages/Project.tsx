@@ -14,6 +14,8 @@ function Project() {
       <h1 className="text-2xl text-white">
         My <strong>Projects</strong>
       </h1>
+      <div className="container mx-auto">
+
       {/* Project 1 */}
       <CardProject
         title="Pokedex App"
@@ -41,6 +43,7 @@ function Project() {
         urlGithub="https://github.com/facuguardia/task-app-crud"
         image={Image3}
       />
+      </div>
     </div>
   );
 }

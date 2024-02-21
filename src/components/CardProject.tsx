@@ -20,8 +20,8 @@ export const CardProject = ({
   image,
 }: CardProjectProps) => {
   return (
-    <div className="flex flex-col items-start mx-5 md:flex-row-reverse md:justify-center md:items-center">
-      <div className="w-[80%] md:w-[40%] mt-10 rounded-xl border border-white">
+    <div className="flex flex-col items-center justify-center md:flex-row-reverse md:justify-center md:items-center w-screen lg:w-[100%]">
+      <div className="w-[90%] md:w-[40%] mt-10 rounded-xl border border-white">
         <Image
           src={image}
           alt="image project"
@@ -30,7 +30,7 @@ export const CardProject = ({
           className="w-screen rounded-xl"
         />
       </div>
-      <div className="w-[100%] md:w-[50%] flex flex-col items-start gap-5 py-5">
+      <div className="w-[90%] md:w-[45%] flex flex-col items-start gap-5 py-5">
         <div>
           <h1 className="text-xl font-semibold text-white">{title}</h1>
         </div>

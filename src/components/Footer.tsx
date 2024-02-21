@@ -6,13 +6,13 @@ import Logo from "../assets/logo.png";
 
 export const Footer = () => {
   return (
-    <div className="flex items-center justify-between h-20 px-5 lg:px-16">
+    <div className="container mx-auto flex items-center justify-around h-20">
       <div className="">
         <Link href="#hero">
           <Image src={Logo} alt="logo" width={180} height={100} />
         </Link>
       </div>
-      <div className="w-[40%] text-right">
+      <div className="text-right lg:w-[60%] ">
         <h3 className="text-sm font-medium">
           &copy; 2024, All rights reserved.
         </h3>

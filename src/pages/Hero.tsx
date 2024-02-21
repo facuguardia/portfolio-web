@@ -9,6 +9,7 @@ import {
   RiInstagramFill,
   RiGithubFill,
   RiLinkedinFill,
+  RiSpotifyFill,
 } from "react-icons/ri";
 
 import Boy from "../assets/hero.png";
@@ -26,7 +27,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="flex flex-col lg:px-20 lg:pt-16 lg:flex-row-reverse"
+      className="container mx-auto flex flex-col lg:px-20 lg:pt-16 lg:flex-row-reverse"
     >
       <div className="lg:w-[50%] flex justify-center items-center pt-24">
         {isDesktop ? (
@@ -54,11 +55,6 @@ function Hero() {
           </p>
         </div>
         <div className="flex gap-6 pt-8 pl-5 text-left">
-          {/* instagram */}
-          <Link href="https://www.instagram.com/facu_guardia/" target="_blank">
-            <SocialButtons icon={RiInstagramFill} size={25} />
-          </Link>
-
           {/* github */}
           <Link href="https://github.com/facuguardia" target="_blank">
             <SocialButtons icon={RiGithubFill} size={25} />
@@ -72,9 +68,19 @@ function Hero() {
             <SocialButtons icon={RiLinkedinFill} size={25} />
           </Link>
 
+          {/* instagram */}
+          <Link href="https://www.instagram.com/facu_guardia/" target="_blank">
+            <SocialButtons icon={RiInstagramFill} size={25} />
+          </Link>
+
           {/* whatsapp */}
           <Link href="https://bit.ly/wsp-dev" target="_blank">
             <SocialButtons icon={RiWhatsappFill} size={25} />
+          </Link>
+
+          {/* Spotify */}
+          <Link href="https://open.spotify.com/user/121557496" target="_blank">
+            <SocialButtons icon={RiSpotifyFill} size={25} />
           </Link>
         </div>
       </div>

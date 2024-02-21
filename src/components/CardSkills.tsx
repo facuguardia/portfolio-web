@@ -13,7 +13,7 @@ export default function CardSkills({
   title,
 }: CardSkillsProps) {
   return (
-    <button className="flex flex-col items-center w-40 h-40 border-2 border-black rounded-md hover:bg-black hover:text-white justify-evenly">
+    <button className="flex flex-col items-center w-40 h-40 border-2 border-black rounded-md hover:bg-black hover:text-white transition-all duration-300 justify-evenly">
       <Icon size={size} className='hover:text-white'/>
       <h3 className="text-lg font-semibold">{title}</h3>
     </button>
