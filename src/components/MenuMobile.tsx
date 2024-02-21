@@ -12,7 +12,7 @@ export const MenuMobile = () => {
           <Image src={Logo} alt="Logo" width={200} height={50} />
         </Link>
       </div>
-      <div className="w-60 md:w-80">
+      <div className="w-50 md:w-70">
         <ButtonMobile />
       </div>
     </div>
