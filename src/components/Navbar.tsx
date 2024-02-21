@@ -7,7 +7,7 @@ import { Buttons } from "../components/Buttons";
 
 export const Navbar = () => {
   return (
-    <div className="container mx-auto fixed top-0 left-0 right-0 z-10 bg-white">
+    <div className="fixed top-0 left-0 right-0 z-10 bg-white">
       <div className="items-center hidden py-4 lg:flex justify-around">
         <div>
           <Link href="#hero">
