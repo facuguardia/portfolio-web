@@ -6,13 +6,13 @@ import { ButtonMobile } from "../components/ButtonMobile";
 
 export const MenuMobile = () => {
   return (
-    <div className="content mx-auto fixed top-0 left-0 right-0 flex items-center justify-around px-3 py-4 bg-white lg:hidden">
-      <div className="mt-3 lg:mt-0">
+    <div className="content mx-auto fixed top-0 left-0 right-0 flex items-center justify-between px-3 py-4 bg-white lg:hidden">
+      <div className="ml-3">
         <Link href="#hero">
-          <Image src={Logo} alt="Logo" width={300} height={100} />
+          <Image src={Logo} alt="Logo" width={40} height={40} />
         </Link>
       </div>
-      <div className="w-screen">
+      <div className="w-[250px]">
         <ButtonMobile />
       </div>
     </div>

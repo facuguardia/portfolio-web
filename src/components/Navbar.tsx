@@ -13,7 +13,7 @@ export const Navbar = () => {
           href="#hero"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <Image src={Logo} alt="Logo" width={280} height={0} className="h-8" />
+          <Image src={Logo} alt="Logo" width={40} height={40} />
         </Link>
 
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

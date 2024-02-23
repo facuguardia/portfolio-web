@@ -6,10 +6,10 @@ import Logo from "../assets/logo.png";
 
 export const Footer = () => {
   return (
-    <div className="container mx-auto flex flex-col lg:flex-row items-center justify-around h-20 py-5 lg:py-0 gap-2">
+    <div className="container mx-auto flex flex-col lg:flex-row items-center justify-around h-20 py-5 lg:py-0">
       <div>
         <Link href="#hero">
-          <Image src={Logo} alt="logo" width={180} height={100} />
+          <Image src={Logo} alt="logo" width={30} height={30} />
         </Link>
       </div>
       <div className="text-right lg:w-[60%] ">

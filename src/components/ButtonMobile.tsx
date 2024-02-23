@@ -14,7 +14,7 @@ export const ButtonMobile = () => {
 
   return (
     <div
-      className={`lg:hidden fixed bg-black bg-opacity-90  z-50 transition-all duration-500 ${
+      className={`lg:hidden fixed bg-black bg-opacity-90 z-50 transition-all duration-500 ${
         menu ? "top-0" : "top-full"
       }`}
     >
@@ -63,7 +63,7 @@ export const ButtonMobile = () => {
       {/* Button Mobile */}
       <button
         onClick={() => setMenu(!menu)}
-        className="lg:hidden fixed right-2 top-2 text-xl p-3 rounded-full"
+        className="lg:hidden fixed right-3 top-2 text-xl p-3 rounded-full"
       >
         {menu ? <RiCloseFill size={30} className="text-white" /> : <RiMenuFill size={30} />}
       </button>
