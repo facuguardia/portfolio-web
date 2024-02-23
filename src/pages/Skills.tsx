@@ -21,7 +21,7 @@ function Skills() {
       className="container mx-auto flex flex-col items-center justify-between pt-24 pb-10"
     >
       <h1 className="pb-10 text-2xl">
-        My<strong> Skills</strong>
+        Mis<strong> Habilidades</strong>
       </h1>
       <div className="">
         <div className="grid grid-cols-2 gap-8 px-3 md:grid-cols-4 lg:grid-cols-5">

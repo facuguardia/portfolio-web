@@ -16,7 +16,7 @@ function About() {
       </div>
       <div className="mt-10 lg:mt-0 items-start w-[100%] lg:w-[60%]">
         <h1 className="py-5 text-2xl">
-          About <strong>Me</strong>
+          Acerca <strong>de</strong>
         </h1>
         <p className="mt-5 text-gray-600">
           ¡Hola! Soy Facundo, un apasionado desarrollador web y móvil con un

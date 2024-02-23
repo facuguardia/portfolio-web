@@ -3,44 +3,75 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Logo from "../assets/logo.png";
-import { Buttons } from "../components/Buttons";
+import { RiDownload2Line } from "react-icons/ri";
 
 export const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 right-0 z-10 bg-white">
-      <div className="items-center hidden py-4 lg:flex justify-around">
-        <div>
-          <Link href="#hero">
-            <Image src={Logo} alt="Logo" width={200} height={10} />
-          </Link>
-        </div>
-        <nav>
-          <ul className="flex items-center justify-center gap-5 font-medium">
-            <Link href="#about">
-              <li className="hover:underline transition-all duration-300 decoration-black decoration-2">
-                About Me
-              </li>
-            </Link>
-            <Link href="#skills">
-              <li className="hover:underline transition-all duration-300 decoration-black decoration-2">Skills</li>
-            </Link>
-            <Link href="#projects">
-              <li className="hover:underline transition-all duration-300 decoration-black decoration-2">Projects</li>
-            </Link>
-            <Link href="#experience">
-              <li className="hover:underline transition-all duration-300 decoration-black decoration-2">Experience</li>
-            </Link>
-          </ul>
-        </nav>
-        <div className="px-3 py-2 font-medium text-white bg-black rounded-sm">
+    <nav className="bg-white fixed w-full z-20 top-0 start-0 ">
+      <div className="max-w-screen-xl hidden lg:flex flex-wrap items-center justify-between mx-auto p-4">
+        <Link
+          href="#hero"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <Image src={Logo} alt="Logo" width={280} height={0} className="h-8" />
+        </Link>
+
+        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
             href="https://1drv.ms/b/s!Aqsi3vU5uRP4nIR--g6j2vOvQBAH_Q?e=E29Wiz"
             target="_blank"
           >
-            <Buttons title={"Resumen"} styles={"flex items-center gap-2"} />
+            <button
+              type="button"
+              className="text-white bg-black hover:bg-black/80 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
+            >
+              <span className="flex justify-center items-center gap-3">
+                Curriculum Vitae <RiDownload2Line />
+              </span>
+            </button>
           </Link>
         </div>
+        <div
+          className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+            <li>
+              <Link
+                href="#about"
+                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
+                aria-current="page"
+              >
+                Acerca de
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#skills"
+                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
+              >
+                Habilidades
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#projects"
+                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
+              >
+                Proyectos
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#experience"
+                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
+              >
+                Experiencia
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
   );
 };

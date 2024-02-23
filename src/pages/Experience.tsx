@@ -10,7 +10,7 @@ function Experience() {
     // TODO: Completar información
     <div id="experience"  className=" bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-10 px-3">
       <h1 className="text-2xl text-white">
-        My<strong> Experience</strong>
+        Mí<strong> Experiencia</strong>
       </h1>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience

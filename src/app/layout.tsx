@@ -9,7 +9,7 @@ import { Footer } from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FacuTech.com - Demos vida a tus ideas",
+  title: "FacuTech.com",
   description:
     "Soy desarrollador frontend web & mobile, tengo una pasión seria por los efectos de UI, las animaciones y la creación de experiencias de usuario intuitivas y dinámicas. Hagamos algo especial juntos.",
   keywords:
