@@ -1,19 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 
-import {
-  RiWhatsappFill,
-  RiInstagramFill,
-  RiGithubFill,
-  RiLinkedinFill,
-  RiSpotifyFill,
-} from "react-icons/ri";
-
 import Boy from "../assets/hero.png";
-import SocialButtons from "@/components/SocialButtons";
+import { ButtonCTA } from "@/components/ButtonCTA";
 
 function Hero() {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -39,44 +30,24 @@ function Hero() {
       <div className="lg:w-[60%] lg:flex lg:flex-col lg:justify-center lg:items-start">
         <div className="py-10 ml-5">
           <h1 className="text-4xl text-left leading-[140%]">
-            Hola, soy <strong>Facundo. Frontend</strong> <br />
-            <span className="px-2 text-white bg-black">Developer</span> <br />
+            Hola, soy <strong>Facundo. Desarrollador</strong> <br />
+            <span className="px-2 text-white bg-black">Web & Mobile</span>{" "}
+            <br />
           </h1>
         </div>
-        <div>
-          <p className="mx-5 text-xl text-left">
-            Mi enfoque es convertir ideas en experiencias digitales
-            cautivadoras, garantizando resultados extraordinarios. Si buscas un
-            arquitecto digital apasionado, estoy aquí para llevar tu visión al
-            siguiente nivel. Hablemos sobre tu proyecto y demos vida a tus
-            ideas...
-            <br />
-            <br /> <strong>¡Convierte tu visión en realidad conmigo!</strong>
-          </p>
-        </div>
-        <div className="flex gap-6 pt-8 pl-5 text-left">
-          {/* linkedin */}
-          <Link
-            href="https://www.linkedin.com/in/facu-guardia/"
-            target="_blank"
-          >
-            <SocialButtons icon={RiLinkedinFill} size={25} />
-          </Link>
+        <div className="flex flex-col justify-center gap-8">
+          <div>
+            <p className="ml-5 text-xl text-left">
+              ¿Querés darle un impulso digital a tu negocio? ¿Necesitas un mejor
+              ingreso? Descubre cómo mis habilidades en desarrollo web y mobile
+              pueden hacerlo realidad.<strong> ¡Hablemos! </strong>Consulta
+              gratis, sin compromisos.
+            </p>
+          </div>
 
-          {/* Spotify */}
-          <Link href="" target="_blank">
-            <SocialButtons icon={RiSpotifyFill} size={25} />
-          </Link>
-
-          {/* github */}
-          <Link href="https://github.com/facuguardia" target="_blank">
-            <SocialButtons icon={RiGithubFill} size={25} />
-          </Link>
-
-          {/* whatsapp */}
-          <Link href="https://bit.ly/wsp-dev" target="_blank">
-            <SocialButtons icon={RiWhatsappFill} size={25} />
-          </Link>
+          <div className="ml-5 text-xl">
+            <ButtonCTA />
+          </div>
         </div>
       </div>
     </div>

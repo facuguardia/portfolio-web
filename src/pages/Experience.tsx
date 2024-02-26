@@ -14,8 +14,7 @@ function Experience() {
       </h1>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience
-          title="Mobile Developer - React Native"
-          data="Nov 2023 - Presente"
+          title="Mobile Developer"
           description="Me especializo en el desarrollo de aplicaciones móviles utilizando React Native. Diseñé e implementé de manera independiente características claves, asegurando compatibilidad multiplataforma y entregando productos de alta calidad."
           icon={FcAndroidOs}
           size={40}
@@ -23,8 +22,7 @@ function Experience() {
       </div>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience
-          title="Frontend Web Developer - React.Js"
-          data="Dic 2022 - Nov 2023"
+          title="Frontend Web Developer"
           description="Como desarrollador frontend, he creado interfaces de usuario dinámicas y atractivas utilizando React. Colaboro estrechamente con los clientes para ofrecer soluciones personalizadas, mejorando la experiencia del usuario y garantizando el logro de los objetivos del proyecto."
           icon={FcGoogle}
           size={30}
@@ -32,8 +30,7 @@ function Experience() {
       </div>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center ">
         <CardExperience
-          title="Fullstack Developer - React.Js & Node.Js"
-          data="Sep 2022 - Dic 2022"
+          title="Fullstack Developer"
           description="Como desarrollador Fullstack, integro experiencia tanto en frontend como en backend para ofrecer soluciones integrales. Utilizando tecnologías de JavaScript, creo interfaces de usuario atractivas y contribuyo a la arquitectura general de la aplicación. Mi compromiso con la satisfacción del cliente y la adaptabilidad garantizan resultados exitosos en los proyectos."
           icon={FcCommandLine}
           size={40}

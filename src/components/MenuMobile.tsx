@@ -9,7 +9,7 @@ export const MenuMobile = () => {
     <div className="content mx-auto fixed top-0 left-0 right-0 flex items-center justify-between px-3 py-4 bg-white lg:hidden">
       <div className="ml-3">
         <Link href="#hero">
-          <Image src={Logo} alt="Logo" width={40} height={40} />
+          <Image src={Logo} alt="Logo" width={30} height={30} />
         </Link>
       </div>
       <div className="w-[250px]">

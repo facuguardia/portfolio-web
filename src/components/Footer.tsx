@@ -3,20 +3,39 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Logo from "../assets/logo.png";
+import SocialButtons from "./SocialButtons";
+import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
 
 export const Footer = () => {
   return (
-    <div className="container mx-auto flex flex-col lg:flex-row items-center justify-around h-20 py-5 lg:py-0">
-      <div>
-        <Link href="#hero">
-          <Image src={Logo} alt="logo" width={30} height={30} />
+    <footer className="bg-white w-full items-center">
+      <div className="max-w-screen-xl lg:flex flex-wrap items-center justify-between mx-auto px-2 py-2 lg:py-5">
+        <Link href="#hero" className="flex items-center justify-center">
+          <Image src={Logo} alt="Logo" width={25} height={25} />
+          <h3 className="text-xs font-light ml-3">
+            &copy; 2024. Todos los derechos reservados.
+          </h3>
         </Link>
+
+        <div>
+          <ul className="flex justify-center items-center gap-2">
+            <li>
+              <Link
+                href="https://www.linkedin.com/in/facu-guardia/"
+                target="_blank"
+              >
+                <SocialButtons icon={RiLinkedinFill} size={20} />
+              </Link>
+            </li>
+
+            <li>
+              <Link href="https://github.com/facuguardia" target="_blank">
+                <SocialButtons icon={RiGithubFill} size={20} />
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className="text-right lg:w-[60%] ">
-        <h3 className="text-sm font-light">
-          &copy; 2024, All rights reserved.
-        </h3>
-      </div>
-    </div>
+    </footer>
   );
 };

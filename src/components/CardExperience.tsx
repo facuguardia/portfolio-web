@@ -5,7 +5,6 @@ interface CardExperienceProps {
   icon: IconType;
   title: string;
   description: string;
-  data: string;
   size: number;
 }
 
@@ -14,7 +13,6 @@ export default function CardExperience({
   size,
   title,
   description,
-  data,
 }: CardExperienceProps) {
   return (
     <div className="md:w-[90%] p-5 flex flex-col items-center md:items-start border border-white rounded-md">
@@ -23,8 +21,7 @@ export default function CardExperience({
         <h1 className="text-xl font-semibold text-white">{title}</h1>
       </div>
       <div className="flex flex-col items-start justify-start gap-5">
-        <h5 className="mt-5 text-sm text-gray-500">{data}</h5>
-        <p className="text-white">{description}</p>
+        <p className="text-white mt-5">{description}</p>
       </div>
     </div>
   );

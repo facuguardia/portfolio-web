@@ -63,7 +63,7 @@ export const ButtonMobile = () => {
       {/* Button Mobile */}
       <button
         onClick={() => setMenu(!menu)}
-        className="lg:hidden fixed right-3 top-2 text-xl p-3 rounded-full"
+        className="lg:hidden fixed right-3 top-1 text-xl p-3 rounded-full"
       >
         {menu ? <RiCloseFill size={30} className="text-white" /> : <RiMenuFill size={30} />}
       </button>
