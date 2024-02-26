@@ -39,8 +39,11 @@ function Hero() {
           <div>
             <p className="ml-5 text-xl text-left">
               ¿Querés darle un impulso digital a tu negocio? ¿Necesitas un mejor
-              ingreso? Descubre cómo mis habilidades en desarrollo web y mobile
-              pueden hacerlo realidad.<strong> ¡Hablemos! </strong>Consulta
+              ingreso? Descubrí cómo mis habilidades en desarrollo web y mobile
+              pueden hacerlo realidad.
+              <br />
+              <br />
+              <strong> ¡Hablemos! </strong>Consulta
               gratis, sin compromisos.
             </p>
           </div>

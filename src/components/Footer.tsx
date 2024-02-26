@@ -12,13 +12,10 @@ export const Footer = () => {
       <div className="max-w-screen-xl lg:flex flex-wrap items-center justify-between mx-auto px-2 py-2 lg:py-5">
         <Link href="#hero" className="flex items-center justify-center">
           <Image src={Logo} alt="Logo" width={25} height={25} />
-          <h3 className="text-xs font-light ml-3">
-            &copy; 2024. Todos los derechos reservados.
-          </h3>
         </Link>
 
         <div>
-          <ul className="flex justify-center items-center gap-2">
+          <ul className="flex justify-center items-center gap-2 mt-2 lg:mt-0">
             <li>
               <Link
                 href="https://www.linkedin.com/in/facu-guardia/"

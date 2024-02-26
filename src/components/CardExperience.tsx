@@ -15,8 +15,8 @@ export default function CardExperience({
   description,
 }: CardExperienceProps) {
   return (
-    <div className="md:w-[90%] p-5 flex flex-col items-center md:items-start border border-white rounded-md">
-      <div className="flex items-center gap-5">
+    <div className="md:w-[90%] p-5 flex flex-col items-start border border-white rounded-md">
+      <div className="flex items-center gap-3">
         <Icon size={size} className="hover:text-white" />
         <h1 className="text-xl font-semibold text-white">{title}</h1>
       </div>
