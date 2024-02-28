@@ -26,7 +26,7 @@ export const Navbar = () => {
           >
             <button
               type="button"
-              className="text-black bg-white hover:bg-black hover:text-white border-2 border-black font-medium rounded-lg text-sm px-4 py-2 text-center shadow-2xl"
+              className="text-black bg-white hover:bg-black hover:text-white border-2 border-black font-medium rounded-lg text-sm px-4 py-2 text-center shadow-2xl transition-all duration-300 ease-in-out"
             >
               <span className="flex justify-center items-center gap-3 shadow-2xl">
                 Curriculum Vitae <RiDownload2Line />
