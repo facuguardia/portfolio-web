@@ -112,9 +112,9 @@ function ContactUs() {
   return (
     <div
       id="contact"
-      className="container mx-auto pt-24 pb-10 px-0 lg:px-16 flex flex-col lg:flex-row justify-between items-center"
+      className="container mx-auto pt-24 pb-10 px-0 lg:px-16 flex flex-col lg:flex-row justify-between items-center w-screen"
     >
-      <div className="container mx-auto w-[90%] lg:w-[60%]">
+      <div className="container mx-auto w-screen lg:w-[60%]">
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
@@ -144,7 +144,7 @@ function ContactUs() {
 
           <textarea
             {...register("message")}
-            className="border-2 rounded-sm border-black w-[90%] h-32 p-4 shadow-md"
+            className="border-2 rounded-sm border-black w-[90%] h-52 lg:h-32 p-4 shadow-md"
             placeholder="Tu mensaje"
           />
 
