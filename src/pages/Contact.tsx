@@ -166,12 +166,12 @@ function ContactUs() {
         </form>
       </div>
 
-      <div className="mx-5 text-center lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
+      <div className="mx-5 text-left lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
         <h1 className="text-4xl leading-[140%]">
           Soñas con tener tu propio <strong>sitio web </strong> o{" "}
           <strong> aplicación móvil</strong>
         </h1>
-        <p className="mx-5 lg:mx-0 text-lg mt-10 text-gray-500">
+        <p className="lg:mx-0 text-lg mt-10 text-gray-500">
           Con mi ayuda, tendrás una web o app que te ayude a aumentar tus
           ventas, mejorar tu imagen profesional y llegar a más clientes.
         </p>
@@ -186,7 +186,7 @@ function ContactUs() {
               <strong>+54 9 2616 997700</strong>
             </p>
           </Link>
-          <div className="mt-5 flex justify-center lg:justify-start items-center gap-5">
+          <div className="mt-8 flex justify-start items-center gap-5">
             <Link
               href="https://www.instagram.com/facu_guardia/"
               target="_blank"
