@@ -166,8 +166,8 @@ function ContactUs() {
         </form>
       </div>
 
-      <div className="container mx-auto text-center lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
-        <h1 className="mx-5 text-4xl leading-[140%]">
+      <div className="mx-5 text-center lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
+        <h1 className="text-4xl leading-[140%]">
           Soñas con tener tu propio <strong>sitio web </strong> o{" "}
           <strong> aplicación móvil</strong>
         </h1>
