@@ -18,6 +18,7 @@ export const ButtonMobile = () => {
         menu ? "top-0" : "top-full"
       }`}
     >
+      {/* Items */}
       <nav className="flex flex-col items-center justify-center w-screen h-screen">
         {/* Items 1 */}
         <Link
@@ -57,6 +58,16 @@ export const ButtonMobile = () => {
         >
           <span className="flex items-center gap-3 text-2xl font-medium">
             Experience
+          </span>
+        </Link>
+        {/* Items 5 */}
+        <Link
+          href="#contact"
+          className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
+          onClick={closeMenu}
+        >
+          <span className="flex items-center gap-3 text-2xl font-medium">
+            Contacto
           </span>
         </Link>
       </nav>

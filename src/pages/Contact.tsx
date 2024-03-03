@@ -41,7 +41,7 @@
 
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Link from "next/link";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -53,7 +53,6 @@ import {
   BiLogoInstagramAlt,
   BiLogoLinkedin,
   BiLogoGithub,
-  BiLogoWhatsapp,
 } from "react-icons/bi";
 import { userSchema } from "@/schema/userSchema";
 type FormData = {
@@ -64,6 +63,8 @@ type FormData = {
 };
 
 function ContactUs() {
+  const [isSent, setIsSent] = useState(false);
+
   const form = useRef<any>();
   const {
     register,
@@ -80,13 +81,19 @@ function ContactUs() {
 
   const onSubmit: SubmitHandler<FormData> = () => {
     const sendEmail = () => {
+
+      const serviceID = "service_yep9mts";
+      const templateID = "template_z78hrog";
+      const keyId = "klFlDlrl3U0mASChZ";
+
+
       emailjs
         .sendForm(
-          "service_yep9mts",
-          "template_z78hrog",
+          serviceID,
+          templateID,
           form.current as HTMLFormElement,
           {
-            publicKey: "klFlDlrl3U0mASChZ",
+            publicKey: keyId,
           }
         )
         .then(
@@ -99,15 +106,19 @@ function ContactUs() {
         );
     };
     sendEmail();
+    setIsSent(true);
     reset();
   };
   return (
-    <div className="container mx-auto pt-24 pb-10 lg:px-24 flex justify-between">
-      <div className="container mx-auto w-[60%]">
+    <div
+      id="contact"
+      className="container mx-auto pt-24 pb-10 px-0 lg:px-16 flex flex-col lg:flex-row justify-between items-center"
+    >
+      <div className="container mx-auto w-[90%] lg:w-[60%]">
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col justify-center items-start gap-3 w-[100%]"
+          className="flex flex-col justify-center items-center lg:items-start gap-3 w-[100%]"
         >
           <input
             {...register("user_name")}
@@ -115,7 +126,9 @@ function ContactUs() {
             placeholder="Tu nombre"
           />
           {errors.user_name && (
-            <p className="text-red-500 ml-2">{errors.user_name.message}</p>
+            <p className="text-red-500 ml-5 self-start">
+              {errors.user_name.message}
+            </p>
           )}
 
           <input
@@ -124,7 +137,9 @@ function ContactUs() {
             placeholder="Tu correo"
           />
           {errors.user_email && (
-            <p className="text-red-500 ml-2">{errors.user_email.message}</p>
+            <p className="text-red-500 ml-5 self-start">
+              {errors.user_email.message}
+            </p>
           )}
 
           <textarea
@@ -132,31 +147,37 @@ function ContactUs() {
             className="border-2 rounded-sm border-black w-[90%] h-32 p-4 shadow-md"
             placeholder="Tu mensaje"
           />
-          {errors.message && (
-            <p className="text-red-500 ml-2">{errors.message.message}</p>
-          )}
 
-          <button
-            type="submit"
-            className="text-white bg-black hover:bg-white hover:text-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-start "
-          >
-            <div className="font-bold">Hablemos...</div>
-          </button>
+          {isSent ? (
+            <button
+              type="submit"
+              className="text-black bg-green-500 border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-center lg:self-start w-[90%] lg:w-[50%]"
+            >
+              <div className="font-bold">Gracias por escribirme !!!</div>
+            </button>
+          ) : (
+            <button
+              type="submit"
+              className="text-white bg-black hover:bg-white hover:text-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-center lg:self-start w-[90%] lg:w-[50%]"
+            >
+              <div className="font-bold">Hablemos...</div>
+            </button>
+          )}
         </form>
       </div>
 
-      <div className="container mx-auto mt-10 ml-5 lg:mt-0 lg:ml-0 w-[40%]">
-        <h1 className="text-4xl text-left leading-[140%]">
+      <div className="container mx-auto text-center lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
+        <h1 className="text-4xl leading-[140%]">
           Soñas con tener tu propio <strong>sitio web </strong> o{" "}
           <strong> aplicación móvil</strong>
         </h1>
-        <p className="text-lg mt-10 text-gray-500">
+        <p className="mx-10 lg:mx-0 text-lg mt-10 text-gray-500">
           Con mi ayuda, tendrás una web o app que te ayude a aumentar tus
           ventas, mejorar tu imagen profesional y llegar a más clientes.
         </p>
 
         <div className="mt-10">
-          <p className="text-xl mb-2" onClick={handleEmail}>
+          <p className="text-xl mb-2 cursor-pointer" onClick={handleEmail}>
             <strong>consultas@facutech.com</strong>
           </p>
 
@@ -165,7 +186,7 @@ function ContactUs() {
               <strong>+54 9 2616 997700</strong>
             </p>
           </Link>
-          <div className="mt-5 flex items-center gap-5">
+          <div className="mt-5 flex justify-center lg:justify-start items-center gap-5">
             <Link
               href="https://www.instagram.com/facu_guardia/"
               target="_blank"

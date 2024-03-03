@@ -72,6 +72,14 @@ export const Navbar = () => {
                 Experiencia
               </Link>
             </li>
+            <li>
+              <Link
+                href="#contact"
+                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
+              >
+                Contacto
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
