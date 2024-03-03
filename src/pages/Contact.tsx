@@ -158,7 +158,7 @@ function ContactUs() {
           ) : (
             <button
               type="submit"
-              className="text-white bg-black hover:bg-white hover:text-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-center lg:self-start w-[90%] lg:w-[50%]"
+              className="text-white bg-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-center lg:self-start w-[90%] lg:w-[50%]"
             >
               <div className="font-bold">Hablemos...</div>
             </button>
