@@ -167,11 +167,11 @@ function ContactUs() {
       </div>
 
       <div className="container mx-auto text-center lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
-        <h1 className="container mx-auto text-4xl leading-[140%]">
+        <h1 className="mx-5 text-4xl leading-[140%]">
           Soñas con tener tu propio <strong>sitio web </strong> o{" "}
           <strong> aplicación móvil</strong>
         </h1>
-        <p className="container mx-auto lg:mx-0 text-lg mt-10 text-gray-500">
+        <p className="mx-5 lg:mx-0 text-lg mt-10 text-gray-500">
           Con mi ayuda, tendrás una web o app que te ayude a aumentar tus
           ventas, mejorar tu imagen profesional y llegar a más clientes.
         </p>
