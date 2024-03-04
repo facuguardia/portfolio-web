@@ -27,7 +27,7 @@ export const ButtonMobile = () => {
           onClick={closeMenu}
         >
           <span className="flex items-center gap-3 text-2xl font-medium">
-            About Me
+            Acerca de
           </span>
         </Link>
         {/* Items 2 */}
@@ -37,7 +37,7 @@ export const ButtonMobile = () => {
           onClick={closeMenu}
         >
           <span className="flex items-center gap-3 text-2xl font-medium">
-            Skills
+            Habilidades
           </span>
         </Link>
         {/* Items 3 */}
@@ -47,7 +47,7 @@ export const ButtonMobile = () => {
           onClick={closeMenu}
         >
           <span className="flex items-center gap-3 text-2xl font-medium">
-            Projects
+            Proyectos
           </span>
         </Link>
         {/* Items 4 */}
@@ -57,7 +57,7 @@ export const ButtonMobile = () => {
           onClick={closeMenu}
         >
           <span className="flex items-center gap-3 text-2xl font-medium">
-            Experience
+            Experiencia
           </span>
         </Link>
         {/* Items 5 */}
@@ -76,7 +76,11 @@ export const ButtonMobile = () => {
         onClick={() => setMenu(!menu)}
         className="lg:hidden fixed right-3 top-1 text-xl p-3 rounded-full"
       >
-        {menu ? <RiCloseFill size={30} className="text-white" /> : <RiMenuFill size={30} />}
+        {menu ? (
+          <RiCloseFill size={30} className="text-white" />
+        ) : (
+          <RiMenuFill size={30} />
+        )}
       </button>
     </div>
   );
