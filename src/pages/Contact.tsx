@@ -79,26 +79,18 @@ function ContactUs() {
     window.open("mailto:consulta@facutech.com");
   };
 
-  
   const onSubmit: SubmitHandler<FormData> = () => {
     const sendEmail = () => {
-      
       const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID as string;
       const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
       const keyId = process.env.NEXT_PUBLIC_PUBLIC_KEY as string;
-    
+
       console.log(serviceID, templateID, keyId);
-      
 
       emailjs
-        .sendForm(
-          serviceID,
-          templateID,
-          form.current as HTMLFormElement,
-          {
-            publicKey: keyId,
-          }
-        )
+        .sendForm(serviceID, templateID, form.current as HTMLFormElement, {
+          publicKey: keyId,
+        })
         .then(
           () => {
             console.log("SUCCESS!");
