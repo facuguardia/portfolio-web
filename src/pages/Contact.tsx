@@ -1,44 +1,3 @@
-// 'use client'
-
-// import React, { useRef } from 'react';
-// import emailjs from '@emailjs/browser';
-
-// function ContactUs() {
-//   const form = useRef<any>();
-
-//   const sendEmail = (e: any) => {
-//     e.preventDefault();
-
-//     emailjs
-//       .sendForm('service_yep9mts', 'template_z78hrog', form.current, {
-//         publicKey: 'klFlDlrl3U0mASChZ',
-//       })
-//       .then(
-//         () => {
-//           console.log('SUCCESS!');
-//         },
-//         (error) => {
-//           console.log('FAILED...', error.text);
-//         },
-//       );
-//   };
-
-//   return (
-//     <form ref={form} onSubmit={sendEmail}>
-//       <label>Name</label>
-//       <input type="text" name="user_name" />
-//       <label>Email</label>
-//       <input type="email" name="user_email" />
-//       <label>Message</label>
-//       <textarea name="message" />
-
-//       <button type="submit">Send</button>
-//     </form>
-//   );
-// };
-
-// export default ContactUs;
-
 "use client";
 
 import React, { useRef, useState } from "react";
@@ -81,21 +40,16 @@ function ContactUs() {
 
   const onSubmit: SubmitHandler<FormData> = () => {
     const sendEmail = () => {
+      const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID as string;
+      const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
+      const keyId = process.env.NEXT_PUBLIC_PUBLIC_KEY as string;
 
-      const serviceID = "service_yep9mts";
-      const templateID = "template_z78hrog";
-      const keyId = "klFlDlrl3U0mASChZ";
-
+      console.log(serviceID, templateID, keyId);
 
       emailjs
-        .sendForm(
-          serviceID,
-          templateID,
-          form.current as HTMLFormElement,
-          {
-            publicKey: keyId,
-          }
-        )
+        .sendForm(serviceID, templateID, form.current as HTMLFormElement, {
+          publicKey: keyId,
+        })
         .then(
           () => {
             console.log("SUCCESS!");
