@@ -11,9 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "FacuTech",
   description:
-    "Soy desarrollador web & mobile, tengo una pasión seria por los efectos de UI, las animaciones y la creación de experiencias de usuario intuitivas y dinámicas. Hagamos algo especial juntos.",
+    "Soy desarrollador web & mobile, te hago tu sitio web o app a medida, con diseño y experiencia de usuario incluida. Trabajo freelance y remoto, hablo español e inglés.",
   keywords:
-    "frontend, developer, desarrollador, javascript, typescript, react, nextjs, css, html, ux, ui, design, web, mobile, app, website, portfolio, freelance, remote, argentina, españa, chile, spanish, english",
+    "desarrollador web, desarrollador mobile, freelance, remoto, diseño web, diseño mobile, experiencia de usuario, español, inglés, sitio web, app, a medida, diseño, desarrollo, web, mobile, freelance, remoto, español, inglés",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className="{inter.className}, w-screen">
         <Navbar />
         <MenuMobile />
