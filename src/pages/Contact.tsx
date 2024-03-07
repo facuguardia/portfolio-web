@@ -35,7 +35,7 @@ function ContactUs() {
   });
 
   const handleEmail = () => {
-    window.open("mailto:consultas@facutech.com");
+    window.open("mailto:consultas@facutech.com?subject=Contacto desde la web");
   };
 
   const onSubmit: SubmitHandler<FormData> = () => {
@@ -131,12 +131,12 @@ function ContactUs() {
         </p>
 
         <div className="mt-10">
-          <p className="text-xl mb-2 cursor-pointer" onClick={handleEmail}>
+          <p className="text-xl hover:text-gray-400 mb-2 cursor-pointer" onClick={handleEmail}>
             <strong>consultas@facutech.com</strong>
           </p>
 
           <Link href="https://bit.ly/wsp-facutech" target="_blank">
-            <p className="text-xl">
+            <p className="text-xl hover:text-gray-400">
               <strong>+54 9 2616 997700</strong>
             </p>
           </Link>
