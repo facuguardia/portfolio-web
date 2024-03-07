@@ -35,7 +35,7 @@ function ContactUs() {
   });
 
   const handleEmail = () => {
-    window.open("mailto:consulta@facutech.com");
+    window.open("mailto:consultas@facutech.com");
   };
 
   const onSubmit: SubmitHandler<FormData> = () => {
