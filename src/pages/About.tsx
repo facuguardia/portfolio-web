@@ -22,30 +22,31 @@ function About() {
           Acerca <strong>de</strong>
         </h1>
         <p className="mt-5 text-gray-600">
-          Soy un apasionado desarrollador web y móvil. Mi misión es dar vida a
-          tus proyectos más ambiciosos y transformarlos en realidades digitales
-          que brillen con luz propia. Mi conocimiento en desarrollo de software
-          me permite crear aplicaciones con diseños atractivos y funcionales. La
-          palabra<strong> imposible </strong>no existe en mi diccionario. Si
-          tenés una idea, juntos la hacemos realidad.
+          Soy Facundo, tu aliado en el desarrollo web y móvil, especializado en
+          convertir ideas emprendedoras en soluciones digitales que venden. Mi
+          pasión es entender tu visión y materializarla en aplicaciones y sitios
+          web que no solo se vean bien, sino que también cumplan tus objetivos
+          de negocio. Conmigo, lo <strong>imposible</strong> es solo un reto más
+          por superar.
           <br />
           <br />
           <strong>Filosofía de Trabajo</strong>
           <br />
           <br />
-          De frente y sin vueltas. Te presto toda mi atención, te asesoro y guío
-          en el proceso de desarrollo de tu proyecto. Siempre con la mejor onda
-          y predisposición. Para que ambos ganemos en este proceso.
+          Compromiso total con tu proyecto. Te ofrezco asesoramiento
+          personalizado, claridad en cada paso y una colaboración cercana para
+          garantizar que tu inversión digital se traduzca en crecimiento real
+          para tu emprendimiento.
           <br />
           <br />
           <strong>Convertir Tu Visión en Realidad</strong>
           <br />
           <br />
-          Si estás buscando convertir tu idea en un negocio digital rentable...
-          deja de gastar tu dinero en los<strong> vende humo </strong>de siempre, yo llevo tu
-          visión al siguiente nivel, construyendo experiencias digitales que
-          superen tus expectativas. ¡Hablemos sobre tu proyecto y demos vida a
-          tus ideas!
+          No más pérdidas de tiempo y dinero con soluciones genéricas. Estoy
+          aquí para elevar tu idea a su máximo potencial digital, creando
+          experiencias online que no solo cumplen, sino exceden tus
+          expectativas. Conversemos sobre cómo puedo llevar tu emprendimiento al
+          siguiente nivel.
         </p>
       </div>
     </div>
