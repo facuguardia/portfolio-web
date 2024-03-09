@@ -7,7 +7,6 @@ import { FcCommandLine } from "react-icons/fc";
 
 function Experience() {
   return (
-    // TODO: Completar información
     <div
       id="experience"
       className=" bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-10 px-3"
@@ -17,24 +16,24 @@ function Experience() {
       </h1>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience
-          title="Mobile Developer"
-          description="Me especializo en el desarrollo de aplicaciones móviles utilizando React Native. Diseño e implemento de manera eficiente características claves, asegurando compatibilidad multiplataforma y entregando productos de alta calidad."
+          title="Soluciones de Aplicaciones Móviles Personalizadas"
+          description="Entiendo la importancia de conectar con tu cliente en cualquier momento y lugar. Por eso, me especializo en el desarrollo de aplicaciones móviles, asegurando una experiencia de usuario fluida y accesible desde cualquier dispositivo. Mi enfoque en React Native permite crear aplicaciones multiplataforma que impulsan tu negocio y facilitan una interacción constante de tus usuarios."
           icon={FcAndroidOs}
           size={40}
         />
       </div>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience
-          title="Fullstack Developer"
-          description="Como fullstack developer, integro mi experiencia tanto en el frontend como en el backend para proporcionar soluciones completas. Utilizando tecnologías de JavaScript, desarrollo interfaces de usuario atractivas y contribuyo al diseño general de la aplicación."
+          title="Desarrollo Integral para Tu Negocio Digital"
+          description="Tu proyecto requiere una solución que abarque tanto el atractivo visual como la funcionalidad robusta. Con mi experiencia en desarrollo fullstack, fusiono habilidades de frontend y backend para construir desde interfaces de usuario hasta sistemas complejos por detrás de escena, utilizando tecnologías de vanguardia. Esta combinación asegura que tu plataforma digital sea tan eficiente como atractiva, ofreciendo a tus clientes una experiencia completa y cohesiva."
           icon={FcCommandLine}
           size={40}
         />
       </div>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center ">
         <CardExperience
-          title="Frontend Web Developer"
-          description="Como dev frontend, he estado dándole vida a interfaces de usuario con ese toque dinámico y atractivo gracias a React. Trabajo codo a codo con los clientes para armar soluciones a medida, mejorando la experiencia del usuario y asegurándome de que los objetivos del proyecto se cumplan a la perfección"
+          title="Experiencias Web que Enganchan y Convierten"
+          description="Cada punto de contacto con tu cliente es una oportunidad para impresionar y convertir. Como desarrollador frontend, pongo especial atención en crear sitios web que no solo se vean bien, sino que sean intuitivos y fáciles de navegar. Utilizando React, desarrollo soluciones que capturan la esencia de tu marca y la comunican de manera efectiva, garantizando que cada usuario se sienta involucrado y listo para tomar acción. Mi objetivo es ayudarte a superar las barreras digitales, transformando tus ideas en experiencias web que generen resultados."
           icon={FcGoogle}
           size={40}
         />

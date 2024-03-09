@@ -4,14 +4,12 @@ import {
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
-  SiGithub,
   SiTypescript,
   SiNodedotjs,
-  SiFirebase,
   SiPostgresql,
   SiExpress,
   SiWordpress,
-  SiWoocommerce,
+  SiGithub,
 } from "react-icons/si";
 
 import CardSkills from "@/components/CardSkills";
@@ -35,10 +33,8 @@ function Skills() {
           <CardSkills icon={SiNodedotjs} size={50} title="Node.js" />
           <CardSkills icon={SiExpress} size={50} title="Express" />
           <CardSkills icon={SiPostgresql} size={50} title="PostgreSQL" />
-          <CardSkills icon={SiFirebase} size={50} title="Firebase" />
-          <CardSkills icon={SiGithub} size={50} title="Github" />
           <CardSkills icon={SiWordpress} size={50} title="Wordpress" />
-          <CardSkills icon={SiWoocommerce} size={50} title="Woocommerce" />
+          <CardSkills icon={SiGithub} size={50} title="Github" />
         </div>
       </div>
     </div>

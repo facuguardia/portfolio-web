@@ -30,21 +30,20 @@ function Hero() {
       <div className="lg:w-[60%] lg:flex lg:flex-col lg:justify-center lg:items-start">
         <div className="py-10 ml-5">
           <h1 className="text-4xl text-left leading-[140%]">
-            Hola, soy <strong>Facundo. Desarrollador</strong> <br />
-            <span className="px-2 text-white bg-black">Web & Mobile</span>{" "}
+            Impulsa tu <strong>Emprendimiento</strong> con Soluciones <br />
+            <span className="px-2 text-white bg-black">Web a Medida</span>{" "}
             <br />
           </h1>
         </div>
         <div className="flex flex-col justify-center gap-8">
           <div>
             <p className="ml-5 text-xl text-left">
-              ¿Querés darle un impulso digital a tu negocio? ¿Necesitas un mejor
-              ingreso? Descubrí cómo mis habilidades en desarrollo web y mobile
-              pueden hacerlo realidad.
+              Lleva tu negocio al mundo digital y multiplica tus oportunidades
+              de venta. Descubrí cómo puedo{" "}
+              <strong>transformar tu emprendimiento</strong>, sea para lanzar tu
+              <strong> tienda online</strong> o destacar tu{" "}
+              <strong>servicio profesional</strong>.
               <br />
-              <br />
-              <strong> ¡Hablemos! </strong>Consulta
-              gratis, sin compromisos.
             </p>
           </div>
 

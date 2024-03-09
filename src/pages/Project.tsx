@@ -48,7 +48,7 @@ function Project() {
         {/* Project 4 */}
         <CardProject
         title="Landing Page de H2O Deportiva"
-        description="El proyecto para H2O Deportiva, una empresa que busca expandir su presencia online mediante un enfoque escalonado. En la primera fase, hemos desarrollado una atractiva landing page destacando los productos más populares, facilitando la compra a través de un enlace a Mercado Pago. Además, se resalta la oferta mayorista para revendedores. La segunda etapa, actualmente en desarrollo, incluirá una página de compra con pasarela de pagos y carrito de compras, brindando una experiencia completa de comercio electrónico"
+        description="El proyecto para H2O Deportiva, una empresa que busca expandir su presencia online mediante un enfoque escalonado. En la primera fase, hemos desarrollado una atractiva landing page destacando los productos más populares, facilitando la compra a través de un enlace a Mercado Pago. Además, se resalta la oferta mayorista para revendedores. La segunda etapa, actualmente en desarrollo, incluirá una página de compra con pasarela de pagos y carrito de compras, brindando una experiencia completa de comercio electrónico."
         urlDeploy="https://h2o-deportiva.netlify.app/"
         urlGithub="https://github.com/facuguardia/h2o-deportiva"
         image={Image4}

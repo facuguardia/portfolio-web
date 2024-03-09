@@ -99,7 +99,7 @@ function ContactUs() {
           <textarea
             {...register("message")}
             className="border-2 rounded-sm border-black w-[90%] h-52 lg:h-32 p-4 shadow-md"
-            placeholder="Tu mensaje"
+            placeholder="Contame sobre tu proyecto..."
           />
 
           {isSent ? (
@@ -122,22 +122,26 @@ function ContactUs() {
 
       <div className="mx-5 text-left lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
         <h1 className="text-4xl leading-[140%]">
-          Soñas con tener tu propio <strong>sitio web </strong> o{" "}
-          <strong> aplicación móvil</strong>
+          Convierte tu <strong>Sueño Digital</strong> en{" "}
+          <strong>Realidad</strong>
         </h1>
         <p className="lg:mx-0 text-lg mt-10 text-gray-500">
-          Con mi ayuda, tendrás una web o app que te ayude a aumentar tus
-          ventas, mejorar tu imagen profesional y llegar a más clientes.
+          Eleva tu negocio con una web o app diseñada para impulsar tus ventas,
+          mejorar tu imagen de marca y alcanzar a más clientes. Inicia hoy el
+          cambio que tu emprendimiento necesita para crecer.
         </p>
 
         <div className="mt-10">
-          <p className="text-xl hover:text-gray-400 mb-2 cursor-pointer" onClick={handleEmail}>
+          <p
+            className="text-xl hover:text-gray-400 mb-2 cursor-pointer"
+            onClick={handleEmail}
+          >
             <strong>consultas@facutech.com</strong>
           </p>
 
           <Link href="https://bit.ly/wsp-facutech" target="_blank">
             <p className="text-xl hover:text-gray-400">
-              <strong>+54 9 2616 997700</strong>
+              <strong>(+549) 2616 997700</strong>
             </p>
           </Link>
           <div className="mt-8 flex justify-start items-center gap-5">
