@@ -39,10 +39,9 @@ function Hero() {
           <div>
             <p className="ml-5 text-xl text-left">
               Lleva tu negocio al mundo digital y multiplica tus oportunidades
-              de venta. Descubre cómo mi especialización en desarrollo web y
-              móvil puede <strong>transformar tu emprendimiento</strong>, sea
-              para lanzar tu
-              <strong>tienda online</strong> o destacar tu{" "}
+              de venta. Descubrí cómo puedo{" "}
+              <strong>transformar tu emprendimiento</strong>, sea para lanzar tu
+              <strong> tienda online</strong> o destacar tu{" "}
               <strong>servicio profesional</strong>.
               <br />
             </p>
