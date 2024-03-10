@@ -13,6 +13,7 @@ import {
   BiLogoLinkedin,
   BiLogoGithub,
 } from "react-icons/bi";
+import { TbBrandThreads } from "react-icons/tb";
 import { userSchema } from "@/schema/userSchema";
 type FormData = {
   user_name: string;
@@ -146,10 +147,17 @@ function ContactUs() {
           </Link>
           <div className="mt-8 flex justify-start items-center gap-5">
             <Link
-              href="https://www.instagram.com/facu_guardia/"
+              href="https://www.instagram.com/facutech_digital/"
               target="_blank"
             >
               <SocialButtons icon={BiLogoInstagramAlt} size={20} />
+            </Link>
+
+            <Link
+              href="https://www.threads.net/@facutech_digital"
+              target="_blank"
+            >
+              <SocialButtons icon={TbBrandThreads} size={20} />
             </Link>
 
             <Link
