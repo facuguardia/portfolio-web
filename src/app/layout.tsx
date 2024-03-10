@@ -11,9 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "FacuTech",
   description:
-    "Soy desarrollador web & mobile, te hago tu sitio web o app a medida, con diseño y experiencia de usuario incluida. Trabajo freelance y remoto, hablo español e inglés.",
+    "Soy un desarrollador web y móvil freelance. Puedo crear sitios web y aplicaciones a medida con un enfoque en diseño y experiencia de usuario.",
   keywords:
-    "desarrollador web, desarrollador mobile, freelance, remoto, diseño web, diseño mobile, experiencia de usuario, español, inglés, sitio web, app, a medida, diseño, desarrollo, web, mobile, freelance, remoto, español, inglés",
+    "desarrollador web, desarrollador móvil, freelance, diseño web, diseño móvil, experiencia de usuario, español, inglés, sitio web, aplicación, a medida, diseño, desarrollo, web, móvil, freelance, español, inglés",
 };
 
 export default function RootLayout({
