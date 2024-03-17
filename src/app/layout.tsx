@@ -11,9 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "FacuTech",
   description:
-    "Soy un desarrollador web y móvil freelance. Puedo crear sitios web y aplicaciones a medida con un enfoque en diseño y experiencia de usuario.",
+    "En FacuTech, me especializo en el desarrollo de soluciones web personalizadas que impulsan el éxito de tu emprendimiento. Con una profunda experiencia en tecnologías de vanguardia como JavaScript, React, Node.js, y React Native, mi enfoque se centra en crear experiencias digitales únicas - desde tiendas online hasta aplicaciones móviles innovadoras. Mis proyectos destacados, incluyendo la Pokedex App y TareaNova, ejemplifican mi habilidad para transformar ideas en realidades digitales. Me comprometo plenamente con cada proyecto, ofreciendo asesoramiento personalizado y soluciones que no solo cumplen, sino que superan las expectativas. Descubre cómo puedo llevar tu visión digital a la vida con FacuTech.",
   keywords:
-    "desarrollador web, desarrollador móvil, freelance, diseño web, diseño móvil, experiencia de usuario, español, inglés, sitio web, aplicación, a medida, diseño, desarrollo, web, móvil, freelance, español, inglés",
+    "Soluciones web personalizadas, Desarrollo de tiendas online, Servicios de desarrollo web profesional, JavaScript, React, Node.js, Desarrollo de aplicaciones móviles, Proyectos de software a medida, Asesoramiento en tecnología digital, React Native, Innovación en aplicaciones web, Transformación digital para emprendimientos",
 };
 
 export default function RootLayout({
