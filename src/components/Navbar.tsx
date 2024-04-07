@@ -2,21 +2,16 @@
 
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-
-import Logo from "../assets/logo.png";
-import { RiDownload2Line } from "react-icons/ri";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-white fixed w-full z-20 top-0 start-0 px-5">
+    <nav className="bg-white fixed w-full z-20 top-0 start-0">
       {/* Logo */}
       <div className="max-w-screen-xl hidden lg:flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link
-          href="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
-        >
-          <Image src={Logo} alt="Logo" width={50} height={50} />
+        <Link href="/">
+          <span className="text-4xl font-bold font-sans outline-double px-2">
+            FACUTECH
+          </span>
         </Link>
 
         {/* Navbar */}
@@ -27,19 +22,20 @@ export const Navbar = () => {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
             <li>
               <Link
+                href="/"
+                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
+                aria-current="page"
+              >
+                Inicio
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="#about"
                 className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
                 aria-current="page"
               >
                 Acerca de
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#skills"
-                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
-              >
-                Habilidades
               </Link>
             </li>
             <li>
@@ -56,6 +52,14 @@ export const Navbar = () => {
                 className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
               >
                 Experiencia
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#pricing"
+                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
+              >
+                Servicios
               </Link>
             </li>
             <li>

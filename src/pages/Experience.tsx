@@ -11,9 +11,6 @@ function Experience() {
       id="experience"
       className=" bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-10 px-3"
     >
-      <h1 className="text-2xl text-white">
-        Mí<strong> Experiencia</strong>
-      </h1>
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience
           title="Soluciones de Aplicaciones Móviles Personalizadas"

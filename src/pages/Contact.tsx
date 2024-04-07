@@ -6,14 +6,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import emailjs from "@emailjs/browser";
 
-import SocialButtons from "@/components/SocialButtons";
-
-import {
-  BiLogoInstagramAlt,
-  BiLogoLinkedin,
-  BiLogoGithub,
-} from "react-icons/bi";
-import { TbBrandThreads } from "react-icons/tb";
+import { BsFillSendFill } from "react-icons/bs";
 import { userSchema } from "@/schema/userSchema";
 type FormData = {
   user_name: string;
@@ -67,7 +60,7 @@ function ContactUs() {
   return (
     <div
       id="contact"
-      className="container mx-auto pt-24 pb-10 px-0 lg:px-16 flex flex-col lg:flex-row justify-between items-center w-screen"
+      className="container mx-auto pt-24 pb-20 px-0 lg:px-16 flex flex-col lg:flex-row justify-between items-center w-screen"
     >
       <div className="container mx-auto w-screen lg:w-[60%]">
         <form
@@ -106,16 +99,18 @@ function ContactUs() {
           {isSent ? (
             <button
               type="submit"
-              className="text-black bg-green-500 border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-center lg:self-start w-[90%] lg:w-[50%]"
+              className="text-black bg-green-500 border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-center lg:self-start w-[%] lg:w-[50%]"
             >
-              <div className="font-bold">Gracias por escribirme !!!</div>
+              <div className="font-bold">Gracias por escribirme...</div>
             </button>
           ) : (
             <button
               type="submit"
-              className="text-white bg-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 text-center shadow-xl transition-all duration-300 ease-in-out self-center lg:self-start w-[90%] lg:w-[50%]"
+              className="text-white bg-black hover:bg-green-500 hover:text-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 w-[90%] lg:w-[50%] text-center shadow-xl transition-all duration-300 ease-in-out"
             >
-              <div className="font-bold">Hablemos...</div>
+              <div className="font-bold flex justify-center items-center gap-2">
+                Enviar <BsFillSendFill />{" "}
+              </div>
             </button>
           )}
         </form>
@@ -132,45 +127,19 @@ function ContactUs() {
           cambio que tu emprendimiento necesita para crecer.
         </p>
 
-        <div className="mt-10">
+        <div className="mt-8 flex flex-col lg:flex-row justify-start lg:gap-7">
           <p
-            className="text-xl hover:text-gray-400 mb-2 cursor-pointer"
+            className="text-xl hover:text-green-500 mb-2 cursor-pointer"
             onClick={handleEmail}
           >
             <strong>consultas@facutech.com</strong>
           </p>
 
-          <Link href="https://bit.ly/wsp-facutech" target="_blank">
-            <p className="text-xl hover:text-gray-400">
-              <strong>(+549) 2616 997700</strong>
+          <Link href="https://bit.ly/wsp-cliente" target="_blank">
+            <p className="text-xl hover:text-green-500">
+              <strong>(+569) 5620 5175</strong>
             </p>
           </Link>
-          <div className="mt-8 flex justify-start items-center gap-5">
-            <Link
-              href="https://www.instagram.com/facutech_digital/"
-              target="_blank"
-            >
-              <SocialButtons icon={BiLogoInstagramAlt} size={20} />
-            </Link>
-
-            <Link
-              href="https://www.threads.net/@facutech_digital"
-              target="_blank"
-            >
-              <SocialButtons icon={TbBrandThreads} size={20} />
-            </Link>
-
-            <Link
-              href="https://www.linkedin.com/in/facu-guardia/"
-              target="_blank"
-            >
-              <SocialButtons icon={BiLogoLinkedin} size={20} />
-            </Link>
-
-            <Link href="https://github.com/facuguardia" target="_blank">
-              <SocialButtons icon={BiLogoGithub} size={20} />
-            </Link>
-          </div>
         </div>
       </div>
     </div>

@@ -42,13 +42,13 @@ export const CardProject = ({
             href={urlDeploy}
             target="_blank"
           >
-            <BiLinkExternal size={20} className="text-white hover:text-blue-500 transition-all duration-300 ease-in-out" />
+            <BiLinkExternal size={20} className="text-white hover:text-green-500 transition-all duration-300 ease-in-out" />
           </Link>
           <Link
             href={urlGithub}
             target="_blank"
           >
-            <BiLogoGithub size={20} className="text-white hover:text-blue-500 transition-all duration-300 ease-in-out" />
+            <BiLogoGithub size={20} className="text-white hover:text-green-500 transition-all duration-300 ease-in-out" />
           </Link>
         </div>
       </div>

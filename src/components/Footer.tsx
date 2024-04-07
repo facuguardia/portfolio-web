@@ -1,23 +1,39 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
-import Logo from "../assets/logo.png";
+import SocialButtons from "./SocialButtons";
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 
 export const Footer = () => {
   return (
-    <footer className="w-full mx-auto px-5 text-white bg-black">
-      <div className="container px-5 py-8 mx-auto flex justify-center gap-2 lg:justify-end items-center">
-        <Image src={Logo} alt="Logo" width={50} height={50} />
-        <div className="font-medium">
+    <footer className="w-full px-5 text-white bg-black">
+      <div className="container mx-auto px-5 py-8 flex flex-col lg:flex-row justify-center items-center gap-5 lg:justify-between">
+        <div>
           <Link href="/">
-            <div className="text-xs lg:text-lg text-center lg:text-right">
-              © 2024 FacuTech.com{" "}
-              <p className="text-xs text-gray-600">
-                Todo los derechos reservados
-              </p>{" "}
-            </div>
+            <span className="text-4xl font-bold font-sans outline-double px-2">
+              FACUTECH
+            </span>
           </Link>
+        </div>
+
+        <div className="font-medium flex flex-col lg:flex-row justify-center items-center gap-5 ">
+          <div className="text-xs lg:text-lg text-center lg:text-right items-center">
+            <p className="mb-8 text-sm text-center text-gray-600 md:text-left md:mb-0">
+              © Copyright 2024. Todos los derechos reservados.
+            </p>
+          </div>
+
+          <div className="flex justify-center items-center gap-3">
+            <Link
+              href="https://www.linkedin.com/in/facu-guardia/"
+              target="_blank"
+            >
+              <SocialButtons icon={BiLogoLinkedin} size={20} />
+            </Link>
+            <Link href="https://github.com/facuguardia" target="_blank">
+              <SocialButtons icon={BiLogoGithub} size={20} />
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

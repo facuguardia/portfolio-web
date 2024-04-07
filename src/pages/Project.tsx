@@ -12,9 +12,6 @@ function Project() {
       id="projects"
       className="flex flex-col items-center w-screen pt-24 pb-10 bg-black"
     >
-      <h1 className="text-2xl text-white">
-        Mis <strong>Proyectos</strong>
-      </h1>
       <div className="container mx-auto">
 
       {/* Project 1 */}
