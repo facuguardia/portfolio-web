@@ -12,7 +12,7 @@ function Pricing() {
                 {" "}
                 Todo lo Que Necesitas para Brillar en Línea{" "}
               </strong>
-              <span className="mb-10 text-2xl font-bold text-black lg:text-5xl leading-[140%]">
+              <span className="mb-10 text-4xl font-bold text-black lg:text-5xl leading-[140%]">
                 {" "}
                 Impulsa Tu Éxito con el Pack Emprendedor{" "}
               </span>

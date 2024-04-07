@@ -9,7 +9,7 @@ export const Navbar = () => {
       {/* Logo */}
       <div className="max-w-screen-xl hidden lg:flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/">
-          <span className="text-4xl font-bold font-sans outline-double px-2">
+          <span className="text-2xl font-bold font-sans outline-double px-2">
             FACUTECH
           </span>
         </Link>
