@@ -10,15 +10,13 @@ function Pricing() {
         <div className="flex flex-wrap items-start justify-center w-full gap-4 px-5 mx-auto lg:px-0">
           <div className="w-full xl:w-1/2 lg:w-2/6 md:text-center lg:text-left">
             <div className="flex flex-col p-8 lg:p-0">
-              <strong className="mb-4 text-xs font-semibold tracking-widest text-gray-500 uppercase">
-                {" "}
-                Todo lo Que Necesitas para Brillar en Línea{" "}
-              </strong>
-              <span className="mb-10 text-4xl font-bold text-black lg:text-5xl leading-[140%]">
-                {" "}
-                Impulsa Tu Éxito con el Pack Emprendedor{" "}
+              <span className="mb-10 text-4xl font-bold text-black lg:text-5xl leading-[140%] mt-10">
+                <h1 className="text-4xl leading-[140%]">
+                  Impulsa <strong>Tu Éxito</strong> con el{" "}
+                  <strong>Pack Emprendedor</strong>
+                </h1>
               </span>
-              <p className="mx-auto mb-4 text-xl text-gray-500 lg:pr-10">
+              <p className="mx-auto mb-4 text-lg lg:text-xl text-gray-500 lg:pr-10">
                 Impulsa tu negocio en línea con el Pack Emprendedor: la solución
                 completa para dominar el mundo digital sin estrés. Desde tu
                 primer dominio hasta tu primera venta en línea, gestiono todo
@@ -170,16 +168,14 @@ function Pricing() {
                   <strong>Soporte y Mantenimiento Continuo</strong>
                 </li>
               </ul>
-                <div className="mt-5 ">
-                  <Link
-                    href="../pack-details"
-                  >
-                    <span className="flex justify-end items-center gap-2 text-sm cursor-pointer text-green-500 hover:text-green-300 transition-all duration-500 ease-in-out">
-                      Más info
-                      <MdKeyboardArrowRight />
-                    </span>
-                  </Link>
-                </div>
+              <div className="mt-5 ">
+                <Link href="../pack-details">
+                  <span className="flex justify-end items-center gap-2 text-sm cursor-pointer text-green-500 hover:text-green-300 transition-all duration-500 ease-in-out">
+                    Más info
+                    <MdKeyboardArrowRight />
+                  </span>
+                </Link>
+              </div>
 
               {/* boton */}
               <div className="mt-8">
