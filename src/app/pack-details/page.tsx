@@ -21,25 +21,28 @@ const PackDetails: React.FC = () => {
       <section className="bg-black my-20">
         <div className="py-8 px-10 mx-auto max-w-screen-xl text-center lg:py-16 z-10">
           <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Bienvenido al Pack Emprendedor de FacuTech: Tu Lanzamiento al Éxito
-            Digital
+            Bienvenido al Pack Emprendedor
+            <br />
+            <span className="lg:text-5xl text-xl font-semibold">
+              Tu Lanzamiento al Éxito Digital
+            </span>
           </h1>
-          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
-            En FacuTech, entendemos que cada detalle cuenta cuando se trata de
-            establecer tu presencia en línea. Por eso, nuestro Pack Emprendedor
-            está diseñado para ofrecerte una solución integral y detallada que
-            cubre todos los aspectos de tu viaje digital. A continuación,
-            encontrarás toda la información que necesitas sobre lo que incluye
-            este pack.
+          <p className="mb-8 text-md font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-38 dark:text-gray-200">
+            En FacuTech, cada detalle cuenta cuando se trata de establecer tu
+            presencia en línea. Por eso, el Pack Emprendedor está diseñado para
+            ofrecerte una solución integral y detallada que cubre todos los
+            aspectos de tu viaje digital.
+            <br />A continuación, encontrarás toda la información que necesitas
+            sobre lo que incluye este pack.
           </p>
         </div>
       </section>
 
       {/* diseño web */}
       <section>
-        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto text-center lg:text-left">
               <h1 className="mb-20 text-4xl font-extrabold tracking-tight leading-none text-gray-900">
                 ¿Qué incluye el Pack Emprendedor?
               </h1>
@@ -49,7 +52,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 border-b border-gray-200 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <MdOutlineWeb className="w-10 h-10" />
             </div>
@@ -63,7 +66,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 border-b border-gray-200 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiRevision className="w-10 h-10" />
             </div>
@@ -76,7 +79,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiTimeFive className="w-10 h-10" />
             </div>
@@ -93,16 +96,16 @@ const PackDetails: React.FC = () => {
 
       {/* Gestion de contenido */}
       <section>
-        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
                 Gestión de Contenido Simplificada
               </h2>
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 border-b border-gray-200 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiLibrary className="w-10 h-10" />
             </div>
@@ -115,7 +118,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiSupport className="w-10 h-10" />
             </div>
@@ -132,16 +135,16 @@ const PackDetails: React.FC = () => {
 
       {/* SEO */}
       <section>
-        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
                 SEO para Mejorar tu Visibilidad
               </h2>
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 border-b border-gray-200 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiLogoGoogle className="w-10 h-10" />
             </div>
@@ -154,7 +157,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <TbReportSearch className="w-10 h-10" />
             </div>
@@ -171,16 +174,16 @@ const PackDetails: React.FC = () => {
 
       {/* E-commerce */}
       <section>
-        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
                 E-Commerce Listo para Usar
               </h2>
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 border-b border-gray-200 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiSolidCart className="w-10 h-10" />
             </div>
@@ -193,7 +196,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiSolidCreditCard className="w-10 h-10" />
             </div>
@@ -212,16 +215,16 @@ const PackDetails: React.FC = () => {
 
       {/* Chat de WhatsApp */}
       <section>
-        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
                 Comunicación Directa con WhatsApp
               </h2>
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiLogoWhatsapp className="w-10 h-10" />
             </div>
@@ -238,16 +241,16 @@ const PackDetails: React.FC = () => {
 
       {/* Imagenes */}
       <section>
-        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
                 Imágenes de Alta Calidad Gratis
               </h2>
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiImage className="w-10 h-10" />
             </div>
@@ -265,16 +268,16 @@ const PackDetails: React.FC = () => {
 
       {/* Soporte y mantenimiento */}
       <section>
-        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
                 Soporte y Mantenimiento Continuo
               </h2>
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <MdOutlineAdminPanelSettings className="w-10 h-10" />
             </div>
@@ -291,11 +294,11 @@ const PackDetails: React.FC = () => {
       </section>
 
       <section className="w-full bg-white border-t border-gray-300">
-        <div className="items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+        <div className="items-center w-full px-3 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
           <div className="flex w-full mx-auto text-left">
             <div className="inline-flex items-center mx-auto align-middle">
               <div className="text-center">
-                <h1 className="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
+                <h1 className="max-w-5xl text-3xl font-bold lg:leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
                   ¿Listo para dar el siguiente paso
                   <br />
                   con tu negocio en línea?
@@ -304,7 +307,7 @@ const PackDetails: React.FC = () => {
                 <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-10">
                   <div className="mt-8">
                     <Link href="https://bit.ly/wsp-emprendedor" target="_blank">
-                      <button className="w-full items-center px-20 py-5 text-lg font-medium text-center text-white transition-all duration-500 ease-in-out border-2 border-black shadow-md rounded-xl bg-black hover:bg-green-500 hover:text-black ">
+                      <button className="w-full items-center px-6 py-3 lg:px-20 lg:py-5 text-md lg:text-lg font-medium text-center text-white transition-all duration-500 ease-in-out border-2 border-black shadow-md rounded-xl bg-black hover:bg-green-500 hover:text-black ">
                         ¡Quiero mi Pack Emprendedor!
                       </button>
                     </Link>

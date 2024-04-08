@@ -170,12 +170,12 @@ function Pricing() {
                   <strong>Soporte y Mantenimiento Continuo</strong>
                 </li>
               </ul>
-                <div className="mt-5 text-white">
+                <div className="mt-5 ">
                   <Link
                     href="../pack-details"
                   >
-                    <span className="flex justify-end items-center gap-2 cursor-pointer hover:text-green-300 transition-all duration-500 ease-in-out">
-                      Mas Info
+                    <span className="flex justify-end items-center gap-2 text-sm cursor-pointer text-green-500 hover:text-green-300 transition-all duration-500 ease-in-out">
+                      Más info
                       <MdKeyboardArrowRight />
                     </span>
                   </Link>
