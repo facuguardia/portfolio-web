@@ -20,20 +20,20 @@ const PackDetails: React.FC = () => {
     <div>
       <section className="bg-black my-20">
         <div className="py-8 px-10 mx-auto max-w-screen-xl text-center lg:py-16 z-10">
-          <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             Bienvenido al Pack Emprendedor
             <br />
             <span className="lg:text-5xl text-xl font-semibold">
               Tu Lanzamiento al Éxito Digital
             </span>
           </h1>
-          <p className="mb-8 text-md font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-38 dark:text-gray-200">
-            En FacuTech, cada detalle cuenta cuando se trata de establecer tu
-            presencia en línea. Por eso, el Pack Emprendedor está diseñado para
-            ofrecerte una solución integral y detallada que cubre todos los
-            aspectos de tu viaje digital.
-            <br />A continuación, encontrarás toda la información que necesitas
-            sobre lo que incluye este pack.
+          <p className="mb-8 text-md font-normal text-white lg:text-xl sm:px-16 lg:px-38">
+            Cada detalle cuenta cuando se trata de establecer tu presencia en
+            línea. Por eso, el Pack Emprendedor está diseñado para ofrecerte una
+            solución integral y detallada que cubre todos los aspectos de tu
+            viaje digital.
+            <br /> <br />A continuación, encontrarás toda la información que
+            necesitas sobre lo que incluye este pack.
           </p>
         </div>
       </section>
@@ -43,7 +43,7 @@ const PackDetails: React.FC = () => {
         <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
             <div className="w-full mx-auto text-center lg:text-left">
-              <h1 className="mb-20 text-4xl font-extrabold tracking-tight leading-none text-gray-900">
+              <h1 className="mb-20 text-4xl font-extrabold tracking-tight leading-none text-">
                 ¿Qué incluye el Pack Emprendedor?
               </h1>
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
@@ -72,7 +72,7 @@ const PackDetails: React.FC = () => {
             </div>
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
-                <span className="font-bold">Revisiones de Diseño: </span>3
+                <span className="font-bold">Revisiones de Diseño: </span>2
                 rondas de revisiones para asegurarme que el diseño final cumple
                 con tus expectativas.
               </p>
@@ -86,8 +86,8 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Tiempo de Entrega: </span>Tu sitio
-                estará listo para lanzarse en un plazo de 4 a 6 semanas,
-                dependiendo de la complejidad y las revisiones requeridas.
+                estará listo para lanzarse en un plazo de 2 a 4 semanas,
+                dependiendo de la personalización requerida.
               </p>
             </div>
           </div>
@@ -191,7 +191,8 @@ const PackDetails: React.FC = () => {
               <p className="text-lg">
                 <span className="font-bold">Cantidad de Productos: </span>
                 Configuración inicial de hasta 10 productos, con la opción de
-                agregar más por ti mismo.
+                agregar más por ti mismo o contratar mi servicio de
+                mantenimiento.
               </p>
             </div>
           </div>
@@ -257,7 +258,7 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Cantidad de Imágenes: </span>
-                Selección de hasta 15 imágenes libres de derechos para usar en
+                Selección de hasta 10 imágenes libres de derechos para usar en
                 tu sitio web, elegidas específicamente para complementar tu
                 marca y contenido.
               </p>
@@ -284,9 +285,9 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Detalles de Soporte: </span>
-                Incluye actualizaciones de seguridad y plugins, así como 4 horas
-                de soporte técnico para cualquier incidencia que pueda surgir
-                durante el primer mes.
+                Durante el primer mes, recibirás actualización de seguridad y
+                plugins, así como 3 horas de soporte técnico para cualquier
+                incidencia que pueda surgir.
               </p>
             </div>
           </div>
