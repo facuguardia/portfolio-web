@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="container mx-auto px-5 py-8 flex flex-col lg:flex-row justify-center items-center gap-5 lg:justify-between">
         <div>
           <Link href="/">
-            <span className="text-4xl font-bold font-sans outline-double px-2">
+            <span className="text-2xl font-bold font-sans outline-double px-2">
               FACUTECH
             </span>
           </Link>

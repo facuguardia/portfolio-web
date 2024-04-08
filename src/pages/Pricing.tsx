@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 
+import { MdKeyboardArrowRight } from "react-icons/md";
+
 function Pricing() {
   return (
     <section id="pricing">
@@ -168,11 +170,21 @@ function Pricing() {
                   <strong>Soporte y Mantenimiento Continuo</strong>
                 </li>
               </ul>
+                <div className="mt-5 text-white">
+                  <Link
+                    href="../pack-details"
+                  >
+                    <span className="flex justify-end items-center gap-2 cursor-pointer hover:text-green-300 transition-all duration-500 ease-in-out">
+                      Mas Info
+                      <MdKeyboardArrowRight />
+                    </span>
+                  </Link>
+                </div>
 
               {/* boton */}
               <div className="mt-8">
                 <Link href="https://bit.ly/wsp-emprendedor" target="_blank">
-                  <button className="w-full items-center px-10 py-3.5 text-lg font-medium text-center text-black transition-all duration-500 ease-in-out border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 bg-white hover:bg-green-500 hover:text-black ">
+                  <button className="w-full items-center px-10 py-3.5 text-lg font-medium text-center text-black transition-all duration-500 ease-in-out border-2 border-black shadow-md rounded-xl bg-white hover:bg-green-500">
                     ¡Quiero Mi Pack!
                   </button>
                 </Link>

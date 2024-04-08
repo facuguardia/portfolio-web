@@ -106,7 +106,7 @@ function ContactUs() {
           ) : (
             <button
               type="submit"
-              className="text-white bg-black hover:bg-green-500 hover:text-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 w-[90%] lg:w-[50%] text-center shadow-xl transition-all duration-300 ease-in-out"
+              className="text-white bg-black hover:bg-green-500 hover:text-black border-2 border-black font-medium rounded-lg text-sm px-6 py-4 w-[90%] lg:w-[50%] text-center shadow-xl transition-all duration-500 ease-in-out"
             >
               <div className="font-bold flex justify-center items-center gap-2">
                 Enviar <BsFillSendFill />{" "}
@@ -129,14 +129,14 @@ function ContactUs() {
 
         <div className="mt-8 flex flex-col lg:flex-row justify-start lg:gap-7">
           <p
-            className="text-xl hover:text-green-500 mb-2 cursor-pointer"
+            className="text-xl hover:text-green-500 cursor-pointer transition-all duration-500 ease-in-out"
             onClick={handleEmail}
           >
             <strong>consultas@facutech.com</strong>
           </p>
 
           <Link href="https://bit.ly/wsp-cliente" target="_blank">
-            <p className="text-xl hover:text-green-500">
+            <p className="text-xl hover:text-green-500 cursor-pointer transition-all duration-500 ease-in-out">
               <strong>(+569) 5620 5175</strong>
             </p>
           </Link>

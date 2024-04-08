@@ -63,11 +63,10 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="#contact"
-                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
-              >
-                Contacto
+              <Link href="#contact">
+                <span className="text-white bg-black hover:bg-green-500 hover:text-black border-2 border-black font-medium rounded-lg text-sm px-9 py-3 text-center shadow-xl transition-all duration-500 ease-in-out">
+                  Contacto
+                </span>
               </Link>
             </li>
           </ul>

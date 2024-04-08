@@ -1,146 +1,320 @@
 import React from "react";
 
+import { TbReportSearch } from "react-icons/tb";
+import { MdOutlineWeb, MdOutlineAdminPanelSettings } from "react-icons/md";
+import {
+  BiRevision,
+  BiTimeFive,
+  BiLibrary,
+  BiSupport,
+  BiLogoGoogle,
+  BiSolidCart,
+  BiSolidCreditCard,
+  BiLogoWhatsapp,
+  BiImage,
+} from "react-icons/bi";
+import Link from "next/link";
+
 const PackDetails: React.FC = () => {
   return (
-    <div className="container mx-auto w-screen h-screen pt-24">
-      <div>
-        <h1 className="text-2xl font-semibold mb-2">
-          Bienvenido al Pack Emprendedor de FacuTech: Tu Lanzamiento al Éxito
-          Digital
-        </h1>
-        <p className="text-lg font-normal mb-2">
-          En FacuTech, entendemos que cada detalle cuenta cuando se trata de
-          establecer tu presencia en línea. Por eso, nuestro Pack Emprendedor
-          está diseñado para ofrecerte una solución integral y detallada que
-          cubre todos los aspectos de tu viaje digital. A continuación,
-          encontrarás toda la información que necesitas sobre lo que incluye
-          este pack.
-        </p>
-      </div>
-      <div>
-        <h2>¿Qué incluye el Pack Emprendedor?</h2>
-
-        <div>
-          <h2>Diseño Web Personalizado</h2>
-          <ul>
-            <li>
-              Cantidad de Secciones: Hasta 5 secciones principales (Inicio,
-              Nosotros, Servicios/Productos, Blog, Contacto), personalizables
-              según tus necesidades.
-            </li>
-            <li>
-              Revisiones de Diseño: 3 rondas de revisiones para asegurarnos de
-              que el diseño final cumple con tus expectativas.
-            </li>
-            <li>
-              Tiempo de Entrega: Tu sitio estará listo para lanzarse en un plazo
-              de 4 a 6 semanas, dependiendo de la complejidad y las revisiones
-              requeridas.
-            </li>
-          </ul>
-
-          <h2>Gestión de Contenido Simplificada</h2>
-          <ul>
-            <li>
-              Capacitación en CMS: Sesión de capacitación de 1 hora para
-              enseñarte cómo administrar y actualizar tu contenido de manera
-              eficaz.
-            </li>
-            <li>
-              Soporte Post-Lanzamiento: 2 meses de soporte post-lanzamiento para
-              consultas sobre la gestión de contenido.
-            </li>
-          </ul>
-
-          <h2>SEO para Mejorar tu Visibilidad</h2>
-          <ul>
-            <li>
-              Optimización Inicial SEO: Incluye investigación de palabras clave,
-              optimización de metaetiquetas, y configuración de sitemap para
-              mejorar tu visibilidad desde el inicio.
-            </li>
-            <li>
-              Reportes de Posicionamiento: Primer mes gratuito de reportes de
-              posicionamiento SEO para monitorear el desempeño de tu sitio.
-            </li>
-          </ul>
-
-          <h2>E-Commerce Listo para Usar</h2>
-          <ul>
-            <li>
-              Cantidad de Productos: Configuración inicial de hasta 20
-              productos, con la opción de agregar más por ti mismo o mediante
-              nuestros servicios adicionales.
-            </li>
-            <li>
-              Integración de Pasarelas de Pago: Integración con las principales
-              pasarelas de pago para facilitar las transacciones en línea.
-            </li>
-          </ul>
-
-          <h2>Comunicación Directa con WhatsApp</h2>
-          <ul>
-            <li>
-              Integración de Chat: Integración del botón de chat de WhatsApp
-              para facilitar la comunicación directa con tus clientes.
-            </li>
-          </ul>
-
-          <h2>Imágenes de Alta Calidad Gratis</h2>
-          <ul>
-            <li>
-              Cantidad de Imágenes: Selección de hasta 15 imágenes libres de
-              derechos para usar en tu sitio web, elegidas específicamente para
-              complementar tu marca y contenido.
-            </li>
-          </ul>
-
-          <h2>Soporte y Mantenimiento Continuo</h2>
-          <ul>
-            <li>
-              Detalles de Soporte: Incluye actualizaciones mensuales de
-              seguridad y plugins, así como 4 horas de soporte técnico para
-              cualquier incidencia que pueda surgir.
-            </li>
-          </ul>
-
-          <h2>Capacitación y Herramientas de Marketing</h2>
-          <ul>
-            <li>
-              Material de Capacitación: Acceso a nuestro kit de inicio de
-              marketing digital, incluyendo guías sobre cómo aprovechar las
-              redes sociales y el email marketing para tu negocio.
-            </li>
-          </ul>
+    <div>
+      <section className="bg-black my-20">
+        <div className="py-8 px-10 mx-auto max-w-screen-xl text-center lg:py-16 z-10">
+          <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            Bienvenido al Pack Emprendedor de FacuTech: Tu Lanzamiento al Éxito
+            Digital
+          </h1>
+          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
+            En FacuTech, entendemos que cada detalle cuenta cuando se trata de
+            establecer tu presencia en línea. Por eso, nuestro Pack Emprendedor
+            está diseñado para ofrecerte una solución integral y detallada que
+            cubre todos los aspectos de tu viaje digital. A continuación,
+            encontrarás toda la información que necesitas sobre lo que incluye
+            este pack.
+          </p>
         </div>
+      </section>
 
-        <h2>¿Por qué elegir el Pack Emprendedor de FacuTech?</h2>
-        <p>
-          En FacuTech, nos enorgullece ofrecer soluciones digitales de alta
-          calidad que se adaptan a las necesidades de cada emprendedor. Con
-          nuestro Pack Emprendedor, puedes estar seguro de que recibirás un
-          servicio personalizado y profesional que te ayudará a destacarte en el
-          mundo digital. Nuestro equipo de expertos en diseño web, marketing
-          digital y desarrollo de software está aquí para ayudarte en cada paso
-          del camino. Ya sea que estés lanzando un nuevo negocio o buscando
-          mejorar tu presencia en línea, el Pack Emprendedor de FacuTech es la
-          elección perfecta para ti. ¡No pierdas la oportunidad de llevar tu
-          emprendimiento al siguiente nivel con FacuTech! Contáctanos hoy para
-          obtener más información sobre nuestro Pack Emprendedor y cómo podemos
-          ayudarte a alcanzar tus objetivos digitales.
-        </p>
+      {/* diseño web */}
+      <section>
+        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+            <div className="w-full mx-auto">
+              <h1 className="mb-20 text-4xl font-extrabold tracking-tight leading-none text-gray-900">
+                ¿Qué incluye el Pack Emprendedor?
+              </h1>
+              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
+                Diseño Web Personalizado
+              </h2>
+            </div>
+          </div>
 
-        <h2>¿Listo para dar el siguiente paso con tu negocio en línea?</h2>
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <MdOutlineWeb className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Cantidad de Secciones: </span>
+                Hasta 5 secciones principales (Inicio, Nosotros,
+                Servicios/Productos, Blog, Contacto), personalizables según tus
+                necesidades.
+              </p>
+            </div>
+          </div>
 
-        <p>
-          Emprende tu viaje digital con el Pack Emprendedor de FacuTech y
-          transforma tu visión en realidad. Con una entrega detallada, soporte
-          dedicado y herramientas para crecer, estás a un paso de llevar tu
-          negocio al siguiente nivel.
-        </p>
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiRevision className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Revisiones de Diseño: </span>3
+                rondas de revisiones para asegurarme que el diseño final cumple
+                con tus expectativas.
+              </p>
+            </div>
+          </div>
 
-        <button>Comienza Ahora con el Pack Emprendedor</button>
-      </div>
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiTimeFive className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Tiempo de Entrega: </span>Tu sitio
+                estará listo para lanzarse en un plazo de 4 a 6 semanas,
+                dependiendo de la complejidad y las revisiones requeridas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Gestion de contenido */}
+      <section>
+        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+            <div className="w-full mx-auto">
+              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
+                Gestión de Contenido Simplificada
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiLibrary className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Capacitación en CMS: </span>
+                Sesión de capacitación de 1 hora para enseñarte cómo administrar
+                y actualizar tu contenido de manera eficaz.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiSupport className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Soporte Post-Lanzamiento: </span>1
+                meses de soporte post-lanzamiento para consultas sobre la
+                gestión de contenido.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEO */}
+      <section>
+        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+            <div className="w-full mx-auto">
+              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
+                SEO para Mejorar tu Visibilidad
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiLogoGoogle className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Optimización Inicial SEO: </span>
+                Incluye investigación de palabras clave y optimización de
+                metaetiquetas, para mejorar tu visibilidad desde el inicio.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <TbReportSearch className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Reportes de Posicionamiento: </span>
+                Primer mes gratuito de reportes de posicionamiento SEO para
+                monitorear el desempeño de tu sitio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* E-commerce */}
+      <section>
+        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+            <div className="w-full mx-auto">
+              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
+                E-Commerce Listo para Usar
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 border-b border-gray-200 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiSolidCart className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Cantidad de Productos: </span>
+                Configuración inicial de hasta 10 productos, con la opción de
+                agregar más por ti mismo.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiSolidCreditCard className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">
+                  Integración de Pasarela de Pago:{" "}
+                </span>
+                Integración con Mercado Pago, para facilitar las transacciones
+                en línea.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Chat de WhatsApp */}
+      <section>
+        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+            <div className="w-full mx-auto">
+              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
+                Comunicación Directa con WhatsApp
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiLogoWhatsapp className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Integración de Chat: </span>
+                Integración del botón de chat de WhatsApp para facilitar la
+                comunicación directa con tus clientes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Imagenes */}
+      <section>
+        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+            <div className="w-full mx-auto">
+              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
+                Imágenes de Alta Calidad Gratis
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <BiImage className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Cantidad de Imágenes: </span>
+                Selección de hasta 15 imágenes libres de derechos para usar en
+                tu sitio web, elegidas específicamente para complementar tu
+                marca y contenido.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Soporte y mantenimiento */}
+      <section>
+        <div className=" flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
+            <div className="w-full mx-auto">
+              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
+                Soporte y Mantenimiento Continuo
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center pb-10 mx-52 my-5 max-w-7xl sm:flex-row">
+            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+              <MdOutlineAdminPanelSettings className="w-10 h-10" />
+            </div>
+            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <p className="text-lg">
+                <span className="font-bold">Detalles de Soporte: </span>
+                Incluye actualizaciones de seguridad y plugins, así
+                como 4 horas de soporte técnico para cualquier incidencia que
+                pueda surgir durante el primer mes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full bg-white border-t border-gray-300">
+        <div className="items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+          <div className="flex w-full mx-auto text-left">
+            <div className="inline-flex items-center mx-auto align-middle">
+              <div className="text-center">
+                <h1 className="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
+                  ¿Listo para dar el siguiente paso
+                  <br />
+                  con tu negocio en línea?
+                </h1>
+
+                <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-10">
+                  <div className="mt-8">
+                    <Link href="https://bit.ly/wsp-emprendedor" target="_blank">
+                      <button className="w-full items-center px-20 py-5 text-lg font-medium text-center text-white transition-all duration-500 ease-in-out border-2 border-black shadow-md rounded-xl bg-black hover:bg-green-500 hover:text-black ">
+                        ¡Quiero mi Pack Emprendedor!
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
