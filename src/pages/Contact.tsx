@@ -129,7 +129,7 @@ function ContactUs() {
 
         <div className="mt-8 flex flex-col lg:flex-row justify-start lg:gap-7">
           <p
-            className="text-xl hover:text-green-500 cursor-pointer transition-all duration-500 ease-in-out"
+            className="text-xl mb-2 hover:text-green-500 cursor-pointer transition-all duration-500 ease-in-out"
             onClick={handleEmail}
           >
             <strong>consultas@facutech.com</strong>
