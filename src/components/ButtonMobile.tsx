@@ -20,6 +20,15 @@ export const ButtonMobile = () => {
     >
       {/* Items */}
       <nav className="flex flex-col items-center justify-center w-screen h-screen">
+      <Link
+          href="/"
+          className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
+          onClick={closeMenu}
+        >
+          <span className="flex items-center gap-3 text-2xl font-medium">
+            Inicio
+          </span>
+        </Link>
         {/* Items 1 */}
         <Link
           href="#about"
@@ -32,16 +41,6 @@ export const ButtonMobile = () => {
         </Link>
         {/* Items 2 */}
         <Link
-          href="#skills"
-          className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
-          onClick={closeMenu}
-        >
-          <span className="flex items-center gap-3 text-2xl font-medium">
-            Habilidades
-          </span>
-        </Link>
-        {/* Items 3 */}
-        <Link
           href="#projects"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
@@ -50,7 +49,7 @@ export const ButtonMobile = () => {
             Proyectos
           </span>
         </Link>
-        {/* Items 4 */}
+        {/* Items 3 */}
         <Link
           href="#experience"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
@@ -60,13 +59,23 @@ export const ButtonMobile = () => {
             Experiencia
           </span>
         </Link>
-        {/* Items 5 */}
+        {/* Items 4 */}
         <Link
-          href="#contact"
+          href="#pricing"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}
         >
           <span className="flex items-center gap-3 text-2xl font-medium">
+            Servicios
+          </span>
+        </Link>
+        {/* Items 5 */}
+        <Link
+          href="#contact"
+          className="w-[70%] h-auto flex justify-start px-4 py-3 text-white hover:text-gray-500"
+          onClick={closeMenu}
+        >
+          <span className="flex items-center gap-3 text-3xl text-green-500 font-bold">
             Contacto
           </span>
         </Link>
