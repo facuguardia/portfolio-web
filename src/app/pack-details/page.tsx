@@ -281,9 +281,9 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Detalles de Soporte: </span>
-                Incluye actualizaciones de seguridad y plugins, así
-                como 4 horas de soporte técnico para cualquier incidencia que
-                pueda surgir durante el primer mes.
+                Incluye actualizaciones de seguridad y plugins, así como 4 horas
+                de soporte técnico para cualquier incidencia que pueda surgir
+                durante el primer mes.
               </p>
             </div>
           </div>
