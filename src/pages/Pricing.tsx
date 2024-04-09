@@ -6,11 +6,11 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 function Pricing() {
   return (
     <section id="pricing">
-      <div className="items-center w-full pt-20 lg:pt-28 pb-10 mx-auto md:px-12 lg:px-16 max-w-7xl">
+      <div className="items-center w-full pt-16 lg:pt-24 pb-10 mx-auto lg:px-3 max-w-7xl">
         <div className="flex flex-wrap items-start justify-center w-full gap-4 px-5 mx-auto lg:px-0">
           <div className="w-full xl:w-1/2 lg:w-2/6 md:text-center lg:text-left">
-            <div className="flex flex-col p-8 lg:p-0">
-              <span className="mb-10 text-4xl font-bold text-black lg:text-5xl leading-[140%] mt-10">
+            <div className="flex flex-col p-3 lg:p-0">
+              <span className="mb-10 text-4xl text-black lg:text-5xl leading-[140%] mt-10">
                 <h1 className="text-4xl leading-[140%]">
                   Impulsa <strong>Tu Éxito</strong> con el{" "}
                   <strong>Pack Emprendedor</strong>
