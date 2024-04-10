@@ -22,18 +22,18 @@ function Hero() {
     >
       <div className="lg:w-[50%] pt-24 lg:pt-0 flex justify-center items-center">
         {isDesktop ? (
-          <Image src={Boy} alt="Hero" width={889} height={596}/>
+          <Image src={Boy} alt="Hero" />
         ) : (
-          <Image src={Boy} alt="Hero" width={343} height={350} />
+          <Image src={Boy} alt="Hero" />
         )}
       </div>
-      <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-start">
-        <div className="py-10 ml-5">
+      <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-start mx-5">
+        <div className="py-10">
           <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left leading-[140%]">
-            <strong className="leading-[140%]">Sitios Web</strong> que Impulsan <strong>Tu Negocio</strong>{" "}
-            <br />
+            <strong className="leading-[140%]">Sitios Web</strong> que Impulsan{" "}
+            <strong>Tu Negocio</strong> <br />
             Hacia el{" "}
-            <span className="px-2 text-black font-bold leading-[140%]">
+            <span className="text-black font-bold leading-[140%]">
               Exito Digital
             </span>{" "}
             <br />
@@ -41,14 +41,14 @@ function Hero() {
         </div>
         <div className="flex flex-col justify-center gap-8">
           <div>
-            <p className="ml-5 text-lg lg:text-2xl text-left">
+            <p className="text-lg lg:text-2xl text-left">
               Entrar al mundo digital puede ser un gran desafío, especialmente
               si tu pasión es tu emprendimiento y no la tecnología. Por eso, en
               FacuTech, diseñé el Pack Emprendedor pensando en ti.
             </p>
           </div>
 
-          <div className="ml-5 text-xl">
+          <div className="text-xl">
             <ButtonCTA />
           </div>
         </div>
