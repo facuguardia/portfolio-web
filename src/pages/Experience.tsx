@@ -1,41 +1,101 @@
 import React from "react";
-import CardExperience from "../components/CardExperience";
+import Image from "next/image";
 
-import { FcGoogle } from "react-icons/fc";
-import { FcAndroidOs } from "react-icons/fc";
-import { FcCommandLine } from "react-icons/fc";
+import ImgExp1 from "../assets/img-6.jpg";
+import ImgExp2 from "../assets/img-3.jpg";
+import ImgExp3 from "../assets/img-1.jpg";
 
 function Experience() {
   return (
-    <div
-      id="experience"
-      className=" bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-10 px-3"
-    >
-      <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
-        <CardExperience
-          title="Soluciones de Aplicaciones Móviles Personalizadas"
-          description="Entiendo la importancia de conectar con tu cliente en cualquier momento y lugar. Por eso, me especializo en el desarrollo de aplicaciones móviles, asegurando una experiencia de usuario fluida y accesible desde cualquier dispositivo. Mi enfoque en React Native permite crear aplicaciones multiplataforma que impulsan tu negocio y facilitan una interacción constante de tus usuarios."
-          icon={FcAndroidOs}
-          size={40}
-        />
+    <section className=" bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-10 px-20">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid max-w-lg gap-12 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
+          <div className="flex flex-col mb-12 overflow-hidden cursor-pointer">
+            <div className="flex-shrink-0">
+              <Image
+                className="w-full h-[16rem] rounded-xl border-4 border-gray-300 opacity-70 hover:opacity-100 transition-all duration-300 ease-in-out"
+                src={ImgExp1}
+                alt="aplication mobile"
+              />
+            </div>
+
+            <div className="flex flex-col justify-between flex-1">
+              <div className="flex-1">
+                <div className="flex pt-6 space-x-1 text-sm text-gray-500"></div>
+
+                <div className="block mt-2 space-y-6 text-left lg:text-center">
+                  <h3 className="text-2xl font-semibold  text-neutral-300">
+                    Aplicaciones Móviles Personalizadas
+                  </h3>
+                  <p className="text-white font-light">
+                    Entiendo la importancia de conectar con tu cliente en
+                    cualquier momento y lugar. Por eso, desarrollo aplicaciones
+                    móviles que aseguren una experiencia de usuario fluida y
+                    accesible desde cualquier dispositivo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col mb-12 overflow-hidden cursor-pointer">
+            <div className="flex-shrink-0">
+              <Image
+                className="w-full h-[16rem] rounded-xl border-4 border-gray-300 opacity-70 hover:opacity-100 transition-all duration-300 ease-in-out"
+                src={ImgExp2}
+                alt=""
+              />
+            </div>
+
+            <div className="flex flex-col justify-between flex-1">
+              <div className="flex-1">
+                <div className="flex pt-6 space-x-1 text-sm text-gray-500"></div>
+
+                <div className="block mt-2 space-y-6 text-center">
+                  <h3 className="text-2xl font-semibold leading-none tracking-tighter text-neutral-300">
+                    Experiencias Web a Medida
+                  </h3>
+                  <p className="text-white font-light">
+                    Cada punto de contacto con tu cliente es una oportunidad
+                    para impresionar y convertir. Como desarrollador frontend,
+                    pongo especial atención en crear sitios web que no solo se
+                    vean bien, sino que sean intuitivos y fáciles de navegar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col mb-12 overflow-hidden cursor-pointer">
+            <div className="flex-shrink-0">
+              <Image
+                className="w-full h-[16rem] rounded-xl border-4 border-gray-300 opacity-70 hover:opacity-100 transition-all duration-300 ease-in-out"
+                src={ImgExp3}
+                alt=""
+              />
+            </div>
+
+            <div className="flex flex-col justify-between flex-1">
+              <div className="flex-1">
+                <div className="flex pt-6 space-x-1 text-sm text-gray-500"></div>
+
+                <div className="block mt-2 space-y-6 text-center">
+                  <h3 className="text-2xl font-semibold leading-none tracking-tighter text-neutral-300">
+                    Desarrollo Integral para Tu Negocio
+                  </h3>
+                  <p className="text-white font-light">
+                    Tu proyecto requiere una solución que abarque tanto el
+                    atractivo visual como la funcionalidad robusta. Fusiono
+                    habilidades de frontend y backend para construir sistemas
+                    complejos utilizando tecnologías de vanguardia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
-        <CardExperience
-          title="Desarrollo Integral para Tu Negocio Digital"
-          description="Tu proyecto requiere una solución que abarque tanto el atractivo visual como la funcionalidad robusta. Con mi experiencia en desarrollo fullstack, fusiono habilidades de frontend y backend para construir desde interfaces de usuario hasta sistemas complejos por detrás de escena, utilizando tecnologías de vanguardia. Esta combinación asegura que tu plataforma digital sea tan eficiente como atractiva, ofreciendo a tus clientes una experiencia completa y cohesiva."
-          icon={FcCommandLine}
-          size={40}
-        />
-      </div>
-      <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center ">
-        <CardExperience
-          title="Experiencias Web que Enganchan y Convierten"
-          description="Cada punto de contacto con tu cliente es una oportunidad para impresionar y convertir. Como desarrollador frontend, pongo especial atención en crear sitios web que no solo se vean bien, sino que sean intuitivos y fáciles de navegar. Utilizando React, desarrollo soluciones que capturan la esencia de tu marca y la comunican de manera efectiva, garantizando que cada usuario se sienta involucrado y listo para tomar acción. Mi objetivo es ayudarte a superar las barreras digitales, transformando tus ideas en experiencias web que generen resultados."
-          icon={FcGoogle}
-          size={40}
-        />
-      </div>
-    </div>
+    </section>
   );
 }
 
