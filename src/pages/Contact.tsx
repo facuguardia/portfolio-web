@@ -121,10 +121,10 @@ function ContactUs() {
           Convierte tu <strong>Sueño Digital</strong> en{" "}
           <strong>Realidad</strong>
         </h1>
-        <p className="lg:mx-0 text-lg mt-10 text-gray-500">
-          Eleva tu negocio con una web o app diseñada para impulsar tus ventas,
-          mejorar tu imagen de marca y alcanzar a más clientes. Inicia hoy el
-          cambio que tu emprendimiento necesita para crecer.
+        <p className="lg:mx-0 text-lg lg:text-xl mt-10 text-gray-500">
+          Eleva tu negocio con una poderosa presencia online diseñada para
+          impulsar tus ventas, mejorar tu imagen de marca y llegar a más
+          clientes.
         </p>
 
         <div className="mt-8 flex flex-col lg:flex-row justify-start lg:gap-7">

@@ -32,23 +32,23 @@ export const CardProject = ({
       </div>
       <div className="w-[90%] md:w-[45%] flex flex-col items-start gap-5 py-5">
         <div>
-          <h1 className="text-xl font-semibold text-white">{title}</h1>
+          <h1 className="text-xl font-semibold text-gray-300">{title}</h1>
         </div>
         <div>
-          <p className="mr-5 text-gray-500">{description}</p>
+          <p className="mr-5 text-gray-300 font-light">{description}</p>
         </div>
         <div className="flex items-center justify-start gap-3">
           <Link
             href={urlDeploy}
             target="_blank"
           >
-            <BiLinkExternal size={20} className="text-white hover:text-green-500 transition-all duration-300 ease-in-out" />
+            <BiLinkExternal size={20} className="text-gray-300 hover:text-green-500 transition-all duration-300 ease-in-out" />
           </Link>
           <Link
             href={urlGithub}
             target="_blank"
           >
-            <BiLogoGithub size={20} className="text-white hover:text-green-500 transition-all duration-300 ease-in-out" />
+            <BiLogoGithub size={20} className="text-gray-300 hover:text-green-500 transition-all duration-300 ease-in-out" />
           </Link>
         </div>
       </div>

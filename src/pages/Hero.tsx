@@ -20,14 +20,14 @@ function Hero() {
       id="hero"
       className="container mx-auto flex flex-col lg:px-20 lg:pt-24 lg:flex-row-reverse"
     >
-      <div className="lg:w-[50%] flex justify-center items-center">
+      <div className="lg:w-[50%] pt-24 lg:pt-0 flex justify-center items-center">
         {isDesktop ? (
-          <Image src={Boy} alt="Hero" width={889} height={596} />
+          <Image src={Boy} alt="Hero" width={889} height={596}/>
         ) : (
           <Image src={Boy} alt="Hero" width={343} height={350} />
         )}
       </div>
-      <div className="lg:w-[60%] lg:flex lg:flex-col lg:justify-center lg:items-start">
+      <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-start">
         <div className="py-10 ml-5">
           <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left leading-[140%]">
             <strong className="leading-[140%]">Sitios Web</strong> que Impulsan <strong>Tu Negocio</strong>{" "}
