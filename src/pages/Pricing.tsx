@@ -89,24 +89,6 @@ function Pricing() {
                   <strong>Gestión de Contenido Simplificada</strong>
                 </li>
 
-                {/* Google */}
-                {/* <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
-                  <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2.5"
-                      className="w-3 h-3"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>
-                  <strong>Destácate en Google</strong>
-                </li> */}
-
                 {/* Ecommerce */}
                 <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">

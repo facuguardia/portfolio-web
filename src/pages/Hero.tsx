@@ -18,7 +18,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="container mx-auto flex flex-col lg:px-5 lg:pt-32 lg:flex-row-reverse items-center"
+      className="container mx-auto flex flex-col lg:px-5 lg:py-32 lg:flex-row-reverse items-center"
     >
       <div className="lg:w-[40%] lg:h-[300px] pt-24 lg:pt-0 flex justify-center">
         {isDesktop ? (
@@ -41,14 +41,6 @@ function Hero() {
           </h1>
         </div>
         <div className="flex flex-col justify-center gap-8">
-          {/* <div>
-            <p className="text-lg lg:text-2xl text-left">
-              Entrar al mundo digital puede ser un gran desafío, especialmente
-              si tu pasión es tu emprendimiento y no la tecnología. Por eso, en
-              FacuTech, diseñé el Pack Emprendedor pensando en ti.
-            </p>
-          </div> */}
-
           <div className="text-xl">
             <ButtonCTA />
           </div>

@@ -12,7 +12,7 @@ export default function SocialButtons({
 }: SocialButtonsProps) {
   return (
     <button className="flex items-center justify-center hover:text-green-500 transition-all duration-300 ease-in-out">
-      <Icon size={size}/>
+      <Icon size={size} />
     </button>
   );
 }

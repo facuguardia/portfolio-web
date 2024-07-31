@@ -6,14 +6,13 @@ import Logo from "../assets/logo-facutech.png";
 import SocialButtons from "./SocialButtons";
 import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 
-
 export const Footer = () => {
   return (
     <footer className="w-full px-5 text-black bg-slate-200 border border-t-2 ">
       <div className="container mx-auto px-5 py-8 flex flex-col lg:flex-row justify-center items-center gap-5 lg:justify-between">
         <div>
           <Link href="/">
-          <Image src={Logo} alt="logo facutech" height={100} width={100} />
+            <Image src={Logo} alt="logo facutech" height={100} width={100} />
           </Link>
         </div>
 

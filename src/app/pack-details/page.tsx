@@ -1,15 +1,12 @@
 import React from "react";
 
-import { TbReportSearch } from "react-icons/tb";
 import { MdOutlineWeb, MdOutlineAdminPanelSettings } from "react-icons/md";
 import {
   BiRevision,
   BiTimeFive,
   BiLibrary,
   BiSupport,
-  BiLogoGoogle,
   BiSolidCart,
-  BiSolidCreditCard,
   BiLogoWhatsapp,
   BiImage,
 } from "react-icons/bi";
@@ -27,7 +24,6 @@ const PackDetails: React.FC = () => {
               Tu Lanzamiento al Éxito Digital
             </span>
           </h1>
-         
         </div>
       </section>
 
@@ -126,45 +122,6 @@ const PackDetails: React.FC = () => {
         </div>
       </section>
 
-      {/* SEO */}
-      {/* <section>
-        <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
-            <div className="w-full mx-auto text-center lg:text-left">
-              <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
-                SEO para Mejorar tu Visibilidad
-              </h2>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center pb-10 mx-5 my-5 border-b border-gray-200 max-w-7xl sm:flex-row sm:mx-52">
-            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
-              <BiLogoGoogle className="w-10 h-10" />
-            </div>
-            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
-              <p className="text-lg">
-                <span className="font-bold">Optimización Inicial SEO: </span>
-                Incluye investigación de palabras clave y optimización de
-                metaetiquetas, para mejorar tu visibilidad desde el inicio.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
-            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
-              <TbReportSearch className="w-10 h-10" />
-            </div>
-            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
-              <p className="text-lg">
-                <span className="font-bold">Reportes de Posicionamiento: </span>
-                Primer mes gratuito de reportes de posicionamiento SEO para
-                monitorear el desempeño de tu sitio.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* E-commerce */}
       <section>
         <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -189,21 +146,6 @@ const PackDetails: React.FC = () => {
               </p>
             </div>
           </div>
-
-          {/* <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
-            <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
-              <BiSolidCreditCard className="w-10 h-10" />
-            </div>
-            <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
-              <p className="text-lg">
-                <span className="font-bold">
-                  Integración de Pasarela de Pago:{" "}
-                </span>
-                Integración con Mercado Pago, para facilitar las transacciones
-                en línea.
-              </p>
-            </div>
-          </div> */}
         </div>
       </section>
 

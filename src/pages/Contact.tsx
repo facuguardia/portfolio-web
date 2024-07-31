@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import Link from "next/link";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import emailjs from "@emailjs/browser";
@@ -27,10 +26,6 @@ function ContactUs() {
   } = useForm<FormData>({
     resolver: zodResolver(userSchema),
   });
-
-  const handleEmail = () => {
-    window.open("mailto:consultas@facutech.com?subject=Contacto desde la web");
-  };
 
   const onSubmit: SubmitHandler<FormData> = () => {
     const sendEmail = () => {
@@ -61,7 +56,6 @@ function ContactUs() {
     <div
       id="contact"
       className="container mx-auto pt-24 pb-20 px-0 lg:px-16 flex flex-col lg:flex-row justify-between w-screen"
-      
     >
       <div className="container mx-auto w-screen lg:w-[50%]">
         <form
@@ -127,8 +121,6 @@ function ContactUs() {
           impulsar tus ventas, mejorar tu imagen de marca y llegar a más
           clientes.
         </p>
-
-        
 
         {/* Correo y telefono */}
         {/* <div className="mt-8 flex flex-col lg:flex-row justify-start lg:gap-7">

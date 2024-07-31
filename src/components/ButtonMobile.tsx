@@ -20,7 +20,7 @@ export const ButtonMobile = () => {
     >
       {/* Items */}
       <nav className="flex flex-col items-center justify-center w-screen h-screen">
-      <Link
+        <Link
           href="/"
           className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
           onClick={closeMenu}

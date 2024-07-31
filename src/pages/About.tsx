@@ -27,8 +27,7 @@ function About() {
           convertir ideas emprendedoras en soluciones digitales que venden. Mi
           pasión es entender tu visión y materializarla en aplicaciones y sitios
           web que no solo se vean bien, sino que también cumplan tus objetivos
-          de negocio. Conmigo, lo imposible es solo un reto más
-          por superar.
+          de negocio. Conmigo, lo imposible es solo un reto más por superar.
           <br />
           <br />
           <strong>Filosofía de Trabajo</strong>

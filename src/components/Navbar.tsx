@@ -70,12 +70,11 @@ export const Navbar = () => {
 
         {/* CTA */}
         <div>
-
-            <Link href="#contact">
-              <span className="text-white bg-black hover:bg-green-500 hover:text-black border-2 border-black font-medium rounded-lg text-sm px-9 py-3 text-center shadow-xl transition-all duration-500 ease-in-out">
-                Contacto
-              </span>
-            </Link>
+          <Link href="#contact">
+            <span className="text-white bg-black hover:bg-green-500 hover:text-black border-2 border-black font-medium rounded-lg text-sm px-9 py-3 text-center shadow-xl transition-all duration-500 ease-in-out">
+              Contacto
+            </span>
+          </Link>
         </div>
       </div>
     </nav>
