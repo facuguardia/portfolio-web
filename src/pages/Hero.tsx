@@ -18,16 +18,17 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="container mx-auto flex flex-col lg:px-20 lg:pt-24 lg:flex-row-reverse"
+      className="container mx-auto flex flex-col lg:px-20 lg:pt-24 lg:flex-row-reverse items-center"
     >
-      <div className="lg:w-[50%] pt-24 lg:pt-0 flex justify-center items-center">
+      <div className="lg:w-[40%] lg:h-[300px] pt-24 lg:pt-0 flex justify-center">
         {isDesktop ? (
           <Image src={Boy} alt="Hero" />
         ) : (
           <Image src={Boy} alt="Hero" />
         )}
       </div>
-      <div className="lg:w-[80%] lg:flex lg:flex-col lg:justify-center lg:items-start mx-5">
+
+      <div className="lg:w-[60%] lg:flex lg:flex-col lg:justify-center mx-5">
         <div className="py-10">
           <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left leading-[140%]">
             <strong className="leading-[140%]">Sitios Web</strong> que Impulsan{" "}
@@ -40,13 +41,13 @@ function Hero() {
           </h1>
         </div>
         <div className="flex flex-col justify-center gap-8">
-          <div>
+          {/* <div>
             <p className="text-lg lg:text-2xl text-left">
               Entrar al mundo digital puede ser un gran desafío, especialmente
               si tu pasión es tu emprendimiento y no la tecnología. Por eso, en
               FacuTech, diseñé el Pack Emprendedor pensando en ti.
             </p>
-          </div>
+          </div> */}
 
           <div className="text-xl">
             <ButtonCTA />
