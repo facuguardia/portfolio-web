@@ -27,7 +27,7 @@ function Hero() {
           <Image src={Boy} alt="Hero" />
         )}
       </div>
-      <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-start mx-5">
+      <div className="lg:w-[80%] lg:flex lg:flex-col lg:justify-center lg:items-start mx-5">
         <div className="py-10">
           <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left leading-[140%]">
             <strong className="leading-[140%]">Sitios Web</strong> que Impulsan{" "}

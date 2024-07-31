@@ -23,18 +23,11 @@ const PackDetails: React.FC = () => {
           <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             Bienvenido al Pack Emprendedor
             <br />
-            <span className="lg:text-5xl text-xl font-semibold">
+            <span className="lg:text-5xl text-xl font-semibold text-slate-300">
               Tu Lanzamiento al Éxito Digital
             </span>
           </h1>
-          <p className="mb-8 text-md font-normal text-white lg:text-xl sm:px-16 lg:px-38">
-            Cada detalle cuenta cuando se trata de establecer tu presencia en
-            línea. Por eso, el Pack Emprendedor está diseñado para ofrecerte una
-            solución integral y detallada que cubre todos los aspectos de tu
-            viaje digital.
-            <br /> <br />A continuación, encontrarás toda la información que
-            necesitas sobre lo que incluye este pack.
-          </p>
+         
         </div>
       </section>
 
@@ -59,7 +52,7 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Cantidad de Secciones: </span>
-                Hasta 5 secciones principales (Inicio, Nosotros,
+                Hasta 5 secciones en página principal (Inicio, Nosotros,
                 Servicios/Productos, Blog, Contacto), personalizables según tus
                 necesidades.
               </p>
@@ -134,7 +127,7 @@ const PackDetails: React.FC = () => {
       </section>
 
       {/* SEO */}
-      <section>
+      {/* <section>
         <div className="flex flex-col items-center px-5 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
             <div className="w-full mx-auto text-center lg:text-left">
@@ -170,7 +163,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* E-commerce */}
       <section>
@@ -197,7 +190,7 @@ const PackDetails: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
+          {/* <div className="flex flex-col items-center pb-10 mx-5 my-5 max-w-7xl sm:flex-row sm:mx-52">
             <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
               <BiSolidCreditCard className="w-10 h-10" />
             </div>
@@ -210,7 +203,7 @@ const PackDetails: React.FC = () => {
                 en línea.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -246,7 +239,7 @@ const PackDetails: React.FC = () => {
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
             <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
-                Imágenes de Alta Calidad Gratis
+                Imágenes de Alta Calidad
               </h2>
             </div>
           </div>
@@ -273,7 +266,7 @@ const PackDetails: React.FC = () => {
           <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
             <div className="w-full mx-auto text-center lg:text-left">
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
-                Soporte y Mantenimiento Continuo
+                Soporte y Mantenimiento
               </h2>
             </div>
           </div>

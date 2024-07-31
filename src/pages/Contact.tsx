@@ -60,9 +60,10 @@ function ContactUs() {
   return (
     <div
       id="contact"
-      className="container mx-auto pt-24 pb-20 px-0 lg:px-16 flex flex-col lg:flex-row justify-between items-center w-screen"
+      className="container mx-auto pt-24 pb-20 px-0 lg:px-16 flex flex-col lg:flex-row justify-between w-screen"
+      
     >
-      <div className="container mx-auto w-screen lg:w-[60%]">
+      <div className="container mx-auto w-screen lg:w-[50%]">
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
@@ -116,7 +117,7 @@ function ContactUs() {
         </form>
       </div>
 
-      <div className="mx-5 text-left lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[40%]">
+      <div className="mx-5 text-left lg:text-start mt-10 lg:mt-0 lg:ml-0 lg:w-[50%]">
         <h1 className="text-4xl leading-[140%]">
           Convierte tu <strong>Sueño Digital</strong> en{" "}
           <strong>Realidad</strong>
@@ -127,7 +128,10 @@ function ContactUs() {
           clientes.
         </p>
 
-        <div className="mt-8 flex flex-col lg:flex-row justify-start lg:gap-7">
+        
+
+        {/* Correo y telefono */}
+        {/* <div className="mt-8 flex flex-col lg:flex-row justify-start lg:gap-7">
           <p
             className="text-xl mb-2 hover:text-green-500 cursor-pointer transition-all duration-500 ease-in-out"
             onClick={handleEmail}
@@ -140,7 +144,7 @@ function ContactUs() {
               <strong>(+569) 5620 5175</strong>
             </p>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

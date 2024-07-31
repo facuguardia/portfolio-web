@@ -19,7 +19,7 @@ export const Footer = () => {
         <div className="font-medium flex flex-col lg:flex-row justify-center items-center gap-5 ">
           <div className="text-xs lg:text-lg text-center lg:text-right items-center">
             <p className="text-sm text-center text-gray-400 md:text-left">
-              © Copyright 2024. Todos los derechos reservados.
+              © 2023. Todos los derechos reservados.
             </p>
           </div>
 

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react"
+import React from "react";
 
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -40,7 +40,7 @@ function Pricing() {
                 {" "}
                 Pack Emprendedor{" "}
               </span>
-              <span className="flex justify-end items-center mb-8 text-sm font-medium tracking-tight text-white">
+              <span className="flex justify-end items-center mb-8 text-sm font-medium tracking-tight text-slate-300">
                 {" "}
                 Tu Puerta al Mundo Digital{" "}
               </span>
@@ -53,6 +53,7 @@ function Pricing() {
 
               {/* lista pack */}
               <ul>
+                {/* Diseño web */}
                 <li className="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
                     <svg
@@ -69,6 +70,8 @@ function Pricing() {
                   </span>
                   <strong>Diseño Web Personalizado</strong>
                 </li>
+
+                {/* Gestión de contenido */}
                 <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
                     <svg
@@ -85,7 +88,9 @@ function Pricing() {
                   </span>
                   <strong>Gestión de Contenido Simplificada</strong>
                 </li>
-                <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
+
+                {/* Google */}
+                {/* <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
                     <svg
                       fill="none"
@@ -100,7 +105,9 @@ function Pricing() {
                     </svg>
                   </span>
                   <strong>Destácate en Google</strong>
-                </li>
+                </li> */}
+
+                {/* Ecommerce */}
                 <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
                     <svg
@@ -117,6 +124,8 @@ function Pricing() {
                   </span>
                   <strong>Vende tus productos en línea fácilmente</strong>
                 </li>
+
+                {/* Whatsapp */}
                 <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
                     <svg
@@ -134,6 +143,7 @@ function Pricing() {
                   <strong>Comunicación Directa con WhatsApp</strong>
                 </li>
 
+                {/* Imagenes */}
                 <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
                     <svg
@@ -148,9 +158,10 @@ function Pricing() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  <strong>Imágenes de Alta Calidad Gratis</strong>
+                  <strong>Imágenes de Alta Calidad</strong>
                 </li>
 
+                {/* Mantenimiento */}
                 <li className="flex items-center mb-2 text-base font-medium tracking-tight text-white">
                   <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-white">
                     <svg
@@ -165,7 +176,7 @@ function Pricing() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  <strong>Soporte y Mantenimiento Continuo</strong>
+                  <strong>Soporte y Mantenimiento</strong>
                 </li>
               </ul>
               <div className="mt-5 ">
