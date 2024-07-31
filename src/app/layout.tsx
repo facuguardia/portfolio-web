@@ -9,7 +9,7 @@ import { Footer } from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Facutech.com",
+  title: "www.facutech.com",
   description:
     "Me especializo en el desarrollo de soluciones web personalizadas que impulsan el éxito de tu emprendimiento. Mi enfoque se centra en crear experiencias digitales únicas - desde tiendas online hasta aplicaciones móviles innovadoras. Descubre cómo puedo llevar tu visión digital a la vida con FacuTech.",
   keywords:

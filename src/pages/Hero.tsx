@@ -18,7 +18,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="container mx-auto flex flex-col lg:px-20 lg:pt-32 lg:flex-row-reverse items-center"
+      className="container mx-auto flex flex-col lg:px-5 lg:pt-32 lg:flex-row-reverse items-center"
     >
       <div className="lg:w-[40%] lg:h-[300px] pt-24 lg:pt-0 flex justify-center">
         {isDesktop ? (
