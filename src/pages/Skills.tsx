@@ -18,7 +18,7 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="container mx-auto flex flex-col items-center justify-between pt-24 pb-10"
+      className="container mx-auto flex flex-col items-center justify-between pt-24 pb-24"
     >
       <div className="grid grid-cols-2 gap-8 px-3 md:grid-cols-4 lg:grid-cols-5">
         <CardSkills icon={SiJavascript} size={50} title="Javascript" />

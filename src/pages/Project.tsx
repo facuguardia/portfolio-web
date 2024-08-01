@@ -11,7 +11,7 @@ function Project() {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center w-screen pt-24 pb-10 bg-black"
+      className="flex flex-col items-center w-screen pt-24 pb-24 bg-black"
     >
       <div className="container mx-auto">
         {/* Project 1 */}

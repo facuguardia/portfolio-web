@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +8,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 function Pricing() {
   return (
     <section id="pricing">
-      <div className="items-center w-full pt-16 lg:pt-24 pb-10 mx-auto lg:px-3 max-w-7xl">
+      <div className="items-center w-full pt-16 lg:pt-24 pb-24 mx-auto lg:px-3 max-w-7xl">
         <div className="flex flex-wrap items-start justify-center w-full gap-4 px-5 mx-auto lg:px-0">
           <div className="w-full xl:w-1/2 lg:w-2/6 md:text-center lg:text-left">
             <div className="flex flex-col p-3 lg:p-0">

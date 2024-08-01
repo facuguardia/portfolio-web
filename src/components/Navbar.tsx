@@ -8,7 +8,7 @@ import Logo from "../assets/logo-facutech.png";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-white fixed w-full z-20 top-0 start-0 border border-b-3">
+    <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b-2 border-black">
       <div className="max-w-screen-xl hidden lg:flex justify-between items-center mx-auto p-4">
         {/* Logo */}
         <div>
@@ -55,14 +55,6 @@ export const Navbar = () => {
                 className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
               >
                 Experiencia
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#pricing"
-                className="block py-2 px-3 text-gray-900 md:p-0 hover:underline transition-all duration-500 decoration-black decoration-2"
-              >
-                Servicios
               </Link>
             </li>
           </ul>

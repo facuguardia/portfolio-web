@@ -55,7 +55,7 @@ function ContactUs() {
   return (
     <div
       id="contact"
-      className="container mx-auto pt-24 pb-20 px-0 lg:px-16 flex flex-col lg:flex-row justify-between w-screen"
+      className="container mx-auto pt-24 pb-24 px-0 lg:px-16 flex flex-col lg:flex-row justify-between w-screen"
     >
       <div className="container mx-auto w-screen lg:w-[50%]">
         <form

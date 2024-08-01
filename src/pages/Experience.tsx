@@ -9,7 +9,7 @@ function Experience() {
   return (
     <div
       id="experience"
-      className=" bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-10 px-3"
+      className=" bg-black h-[100%] flex flex-col justify-center items-center pt-24 pb-24 px-3"
     >
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience

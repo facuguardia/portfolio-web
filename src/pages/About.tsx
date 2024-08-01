@@ -1,12 +1,16 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import AboutImg from "../assets/about.png";
+
+import Link from "next/link";
 
 function About() {
   return (
     <div
       id="about"
-      className="container mx-auto h-full px-5 lg:px-20 pt-24 pb-10 lg:flex lg:justify-center"
+      className="container mx-auto h-full px-5 lg:px-20 pt-24 pb-24 lg:flex lg:justify-center"
     >
       <div className="flex flex-col lg:justify-center items-center lg:w-[40%]">
         <Image
@@ -37,16 +41,18 @@ function About() {
           personalizado, claridad en cada paso y una colaboración cercana para
           garantizar que tu inversión digital se traduzca en crecimiento real
           para tu emprendimiento.
-          <br />
-          <br />
-          {/* <strong>Convertir Tu Visión en Realidad</strong>
-          <br />
-          <br />
-          No más pérdidas de tiempo y dinero con soluciones genéricas. Estoy
-          aquí para elevar tu idea a su máximo potencial digital, creando
-          experiencias online que no solo cumplen, sino exceden tus
-          expectativas. Conversemos sobre cómo puedo llevar tu emprendimiento al
-          siguiente nivel. */}
+          <div className="mt-10">
+            <Link href="../curriculum">
+              <button
+                type="button"
+                className="text-white bg-black hover:bg-green-500 hover:text-black border-2 border-black font-medium rounded-lg text-lg px-6 py-4 text-center shadow-xl transition-all duration-500 ease-in-out"
+              >
+                <div className="flex justify-center items-center gap-3 shadow-2xl font-bold">
+                  Mi Curriculum Vitae
+                </div>
+              </button>
+            </Link>
+          </div>
         </p>
       </div>
     </div>
