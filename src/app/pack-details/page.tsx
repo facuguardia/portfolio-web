@@ -1,8 +1,12 @@
-'use client'
+"use client";
 
 import React from "react";
 
-import { MdOutlineWeb, MdOutlineAdminPanelSettings } from "react-icons/md";
+import {
+  MdOutlineWeb,
+  MdOutlineAdminPanelSettings,
+  MdOutlineArrowBackIos,
+} from "react-icons/md";
 import {
   BiRevision,
   BiTimeFive,
@@ -228,6 +232,17 @@ const PackDetails: React.FC = () => {
               </p>
             </div>
           </div>
+          {/* volver */}
+          <div className="text-xl font-semibold text-blue-500/70 hover:text-blue-300">
+            <Link href="/">
+              <div className="flex justify-center items-center gap-1">
+                <MdOutlineArrowBackIos className="text-md self-center" />
+
+                <h3>Volver</h3>
+              </div>
+            </Link>
+          </div>
+
         </div>
       </section>
 
