@@ -64,7 +64,7 @@ const Curriculum = () => {
                 Guardia
               </h1>
               <p className="text-muted-foreground">
-                Desarrollador Web & Mobile
+                Developer Web & Mobile
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Curriculum = () => {
                   Pablo Araujo
                 </h4>
                 <p className="text-muted-foreground text-xs text-justify">
-                  Cheapter Lead /{" "}
+                  Chapter Lead /{" "}
                   <span className="italic font-semibold">
                     +54 11 6 26 02 33 2
                   </span>
@@ -413,10 +413,10 @@ const Curriculum = () => {
               </p>
             </li>
           </ul>
-          <div className="flex justify-end mt-12 text-xl font-semibold text-blue-500/70 hover:text-blue-300">
+          <div className="flex justify-end mt-12 text-lg font-semibold text-green-500 hover:text-green-300">
             <Link href="/">
               <div className="flex justify-center items-center gap-1">
-                <MdOutlineArrowBackIos className="text-md self-center" />
+                <MdOutlineArrowBackIos className="text-sm self-center mt-1" />
 
                 <h3>Volver</h3>
               </div>

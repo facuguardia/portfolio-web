@@ -71,7 +71,7 @@ export const ButtonMobile = () => {
             </span>
           </Link>
           {/* item 4 */}
-          <Link
+          {/* <Link
             href="#experience"
             className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
             onClick={closeMenu}
@@ -79,7 +79,7 @@ export const ButtonMobile = () => {
             <span className="flex items-center gap-3 text-2xl font-medium">
               Experiencia
             </span>
-          </Link>
+          </Link> */}
           {/* item 5 */}
           <Link
             href="#pricing"

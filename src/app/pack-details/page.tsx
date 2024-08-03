@@ -232,18 +232,18 @@ const PackDetails: React.FC = () => {
               </p>
             </div>
           </div>
+
+        </div>
           {/* volver */}
-          <div className="text-xl font-semibold text-blue-500/70 hover:text-blue-300">
+          <div className="flex justify-end items-center w-[90%] lg:w-[80%] pb-10 text-lg font-semibold text-green-500 hover:text-green-300">
             <Link href="/">
               <div className="flex justify-center items-center gap-1">
-                <MdOutlineArrowBackIos className="text-md self-center" />
+                <MdOutlineArrowBackIos className="text-sm self-center mt-1" />
 
                 <h3>Volver</h3>
               </div>
             </Link>
           </div>
-
-        </div>
       </section>
 
       <section className="w-full bg-white border-t border-gray-300">
