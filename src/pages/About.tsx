@@ -12,7 +12,7 @@ function About() {
       id="about"
       className="container mx-auto h-full px-5 lg:px-20 pt-24 pb-24 lg:flex lg:justify-center"
     >
-      <div className="flex flex-col lg:justify-center items-center lg:w-[40%]">
+      <div className="flex flex-col lg:justify-center items-center lg:w-[50%]">
         <Image
           src={AboutImg}
           alt="Picture of the author"
