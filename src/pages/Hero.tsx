@@ -20,7 +20,7 @@ function Hero() {
       id="hero"
       className="container mx-auto flex flex-col lg:px-5 lg:pt-36 pb-24 lg:flex-row-reverse items-center border-b-2"
     >
-      <div className="lg:w-[40%] lg:h-[300px] pt-24 lg:pt-0 flex justify-center">
+      <div className="lg:w-[50%] lg:h-[350px] pt-24 lg:pt-0 flex justify-center">
         {isDesktop ? (
           <Image src={Boy} alt="Hero" />
         ) : (
@@ -28,11 +28,11 @@ function Hero() {
         )}
       </div>
 
-      <div className="lg:w-[60%] lg:flex lg:flex-col lg:justify-center mx-5">
+      <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center mx-5">
         <div className="py-10">
-          <h1 className="text-5xl xl:text-6xl text-left leading-[140%] uppercase">
+          <h1 className="text-5xl xl:text-6xl text-left font-thin leading-[140%] uppercase">
             Transforma
-            <strong className="leading-[140%]"> tu idea</strong> en una
+            <strong className="text-black font-bold leading-[140%]"> tu idea</strong> en una
             presencia online{" "}
             <span className="text-black font-bold leading-[140%]">
               impactante

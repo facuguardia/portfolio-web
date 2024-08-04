@@ -233,7 +233,7 @@ export const Navbar = () => {
         <div>
           <Link href="https://bit.ly/wsp-emprendedor" target="_blank">
             <button className="w-full items-center px-10 py-3.5 text-lg font-medium text-center text-white hover:text-black transition-all duration-500 ease-in-out border-2 border-black shadow-md rounded-xl bg-black hover:bg-green-500">
-              Empieza tu proyecto
+              Empezá tu proyecto
             </button>
           </Link>
         </div>
