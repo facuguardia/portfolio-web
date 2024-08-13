@@ -174,7 +174,7 @@ function Pricing() {
 
               {/* boton */}
               <div className="mt-8">
-                <Link href="https://bit.ly/wsp-emprendedor" target="_blank">
+                <Link href="https://bit.ly/facutech-wsp" target="_blank">
                   <button className="w-full items-center px-10 py-3.5 text-lg font-medium text-center text-black transition-all duration-500 ease-in-out border-2 border-black shadow-md rounded-xl bg-white hover:bg-green-500">
                     ¡Quiero Mi Pack!
                   </button>

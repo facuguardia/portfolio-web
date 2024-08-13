@@ -259,7 +259,7 @@ const PackDetails: React.FC = () => {
 
                 <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-10">
                   <div className="mt-8">
-                    <Link href="https://bit.ly/wsp-emprendedor" target="_blank">
+                    <Link href="https://bit.ly/facutech-wsp" target="_blank">
                       <button className="w-full items-center px-6 py-3 lg:px-20 lg:py-5 text-md lg:text-lg font-medium text-center text-white transition-all duration-500 ease-in-out border-2 border-black shadow-md rounded-xl bg-black hover:bg-green-500 hover:text-black ">
                         ¡Quiero mi Pack Emprendedor!
                       </button>

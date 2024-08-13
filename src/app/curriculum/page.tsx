@@ -79,9 +79,9 @@ const Curriculum = () => {
                   {" "}
                   <MdOutlinePhoneIphone />{" "}
                 </div>
-                <Link href="https://bit.ly/wsp-emprendedor" target="_blank">
+                <Link href="https://bit.ly/facutech-wsp" target="_blank">
                 <span className="text-muted-foreground">
-                  +54 261 6 99 77 00
+                  +34 6 334 10299
                 </span>
                 </Link>
               </li>
@@ -99,7 +99,7 @@ const Curriculum = () => {
                   <MdOutlineLocationOn />
                 </div>
                 <span className="text-muted-foreground">
-                  Mendoza, Argentina
+                  Motril - España
                 </span>
               </li>
             </ul>
