@@ -27,7 +27,7 @@ const PackDetails: React.FC = () => {
             Bienvenido al Pack Emprendedor
             <br />
             <span className="lg:text-5xl text-xl font-semibold text-slate-300">
-              Tu Lanzamiento al Éxito Digital
+              Tu Lanzamiento hacia el Éxito Digital
             </span>
           </h1>
         </div>
@@ -42,7 +42,7 @@ const PackDetails: React.FC = () => {
                 ¿Qué incluye el Pack Emprendedor?
               </h1>
               <h2 className="mb-10 text-2xl font-extrabold tracking-tight leading-none text-gray-900">
-                Diseño Web Personalizado
+                Diseño Web
               </h2>
             </div>
           </div>
@@ -53,10 +53,9 @@ const PackDetails: React.FC = () => {
             </div>
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
-                <span className="font-bold">Cantidad de Secciones: </span>
-                Hasta 5 secciones en página principal (Inicio, Nosotros,
-                Servicios/Productos, Blog, Contacto), personalizables según tus
-                necesidades.
+                <span className="font-bold">Template a elección: </span>
+                Podrás elegir entre más de 2.000 plantillas y personalizarlas
+                fácilmente con tu contenido.
               </p>
             </div>
           </div>
@@ -68,8 +67,8 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Revisiones de Diseño: </span>2
-                rondas de revisiones para asegurarme que el diseño final cumple
-                con tus expectativas.
+                rondas de revisiones para asegurarnos de que el diseño final
+                cumpla con tus expectativas.
               </p>
             </div>
           </div>
@@ -81,8 +80,7 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Tiempo de Entrega: </span>Tu sitio
-                estará listo para lanzarse en un plazo de 2 a 4 semanas,
-                dependiendo de la personalización requerida.
+                estará listo para lanzarse en un plazo de 2 a 4 semanas.
               </p>
             </div>
           </div>
@@ -107,8 +105,8 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Capacitación en CMS: </span>
-                Sesión de capacitación de 1 hora para enseñarte cómo administrar
-                y actualizar tu contenido de manera eficaz.
+                Sesión de capacitación de 1 hora para enseñarte a administrar y
+                actualizar tu contenido de manera eficaz.
               </p>
             </div>
           </div>
@@ -120,8 +118,8 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Soporte Post-Lanzamiento: </span>1
-                meses de soporte post-lanzamiento para consultas sobre la
-                gestión de contenido.
+                mes de soporte post-lanzamiento para consultas sobre la gestión
+                de contenido.
               </p>
             </div>
           </div>
@@ -147,7 +145,7 @@ const PackDetails: React.FC = () => {
               <p className="text-lg">
                 <span className="font-bold">Cantidad de Productos: </span>
                 Configuración inicial de hasta 10 productos, con la opción de
-                agregar más por ti mismo o contratar mi servicio de
+                añadir más por ti mismo o contratar mi servicio de
                 mantenimiento.
               </p>
             </div>
@@ -226,24 +224,23 @@ const PackDetails: React.FC = () => {
             <div className="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <p className="text-lg">
                 <span className="font-bold">Detalles de Soporte: </span>
-                Durante el primer mes, recibirás actualización de seguridad y
+                Durante el primer mes, recibirás actualizaciones de seguridad y
                 plugins, así como 3 horas de soporte técnico para cualquier
                 incidencia que pueda surgir.
               </p>
             </div>
           </div>
-
         </div>
-          {/* volver */}
-          <div className="flex justify-end items-center w-[90%] lg:w-[80%] pb-10 text-lg font-semibold text-green-500 hover:text-green-300">
-            <Link href="/">
-              <div className="flex justify-center items-center gap-1">
-                <MdOutlineArrowBackIos className="text-sm self-center mt-1" />
+        {/* volver */}
+        <div className="flex justify-end items-center w-[90%] lg:w-[80%] pb-10 text-lg font-semibold text-green-500 hover:text-green-300">
+          <Link href="/">
+            <div className="flex justify-center items-center gap-1">
+              <MdOutlineArrowBackIos className="text-sm self-center mt-1" />
 
-                <h3>Volver</h3>
-              </div>
-            </Link>
-          </div>
+              <h3>Volver</h3>
+            </div>
+          </Link>
+        </div>
       </section>
 
       <section className="w-full bg-white border-t border-gray-300">
@@ -254,7 +251,7 @@ const PackDetails: React.FC = () => {
                 <h1 className="max-w-5xl text-3xl font-bold lg:leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
                   ¿Listo para dar el siguiente paso
                   <br />
-                  con tu negocio en línea?
+                  con tu negocio online?
                 </h1>
 
                 <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-10">

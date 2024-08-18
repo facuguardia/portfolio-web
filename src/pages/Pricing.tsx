@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Link from "next/link";
 import React from "react";
@@ -19,17 +19,17 @@ function Pricing() {
                 </h1>
               </span>
               <p className="mx-auto mb-4 text-lg lg:text-xl text-gray-500 lg:pr-10">
-                Impulsa tu negocio en línea con el Pack Emprendedor: la solución
-                completa para dominar el mundo digital sin estrés. Desde tu
-                primer dominio hasta tu primera venta en línea, gestiono todo
-                para que puedas concentrarte en lo que realmente importa: el
-                crecimiento de tu negocio.
+                Impulsa tu negocio online con el Pack Emprendedor: la solución
+                integral para dominar el mundo digital sin complicaciones. Desde
+                tu primer dominio hasta tu primera venta online, gestionamos
+                todo para que puedas concentrarte en lo que realmente importa:
+                el crecimiento de tu negocio.
                 <br />
                 <br />
-                Súmate a la comunidad de emprendedores exitosos y haz que tu
-                marca destaque.{" "}
+                Únete a la comunidad de emprendedores exitosos y haz que tu
+                marca se destaque. {" "}
                 <span className="text-black font-medium">
-                  ¡Es tu turno de triunfar!
+                  ¡Es tu momento de triunfar!
                 </span>
               </p>
             </div>
@@ -48,8 +48,7 @@ function Pricing() {
               </span>
               <div className="flex justify-end items-end text-4xl font-black leading-none text-white lg:text-6xl">
                 <span className="flex items-center gap-3">
-                  <span>$199</span>{" "}
-                  <span className="text-sm font-medium">/usd</span>
+                  <span>€ 299</span><span className="text-[28px] mb-8 underline">99</span>{" "}
                 </span>
               </div>
 
@@ -70,7 +69,7 @@ function Pricing() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  <strong>Diseño Web Personalizado</strong>
+                  <strong>Diseño Web</strong>
                 </li>
 
                 {/* Gestión de contenido */}
@@ -106,7 +105,7 @@ function Pricing() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  <strong>Vende tus productos en línea fácilmente</strong>
+                  <strong>Vende tus productos online fácilmente</strong>
                 </li>
 
                 {/* Whatsapp */}
@@ -124,7 +123,7 @@ function Pricing() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  <strong>Comunicación Directa con WhatsApp</strong>
+                  <strong>Comunicación Directa por WhatsApp</strong>
                 </li>
 
                 {/* Imagenes */}

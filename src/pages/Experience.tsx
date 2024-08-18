@@ -13,8 +13,8 @@ function Experience() {
     >
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience
-          title="Soluciones de Aplicaciones Móviles Personalizadas"
-          description="Entiendo la importancia de conectar con tu cliente en cualquier momento y lugar. Por eso, me especializo en el desarrollo de aplicaciones móviles, asegurando una experiencia de usuario fluida y accesible desde cualquier dispositivo."
+          title="Soluciones Personalizadas de Aplicaciones Móviles"
+          description="Comprendo la importancia de conectar con tus clientes en cualquier momento y lugar. Por eso, me especializo en el desarrollo de aplicaciones móviles que garantizan una experiencia de usuario fluida y accesible desde cualquier dispositivo."
           icon={FcAndroidOs}
           size={40}
         />
@@ -22,7 +22,7 @@ function Experience() {
       <div className="container mx-auto w-[95%] mt-10 md:flex md:justify-center">
         <CardExperience
           title="Desarrollo Integral para Tu Negocio Digital"
-          description="Tu proyecto requiere una solución que abarque tanto el atractivo visual como la funcionalidad robusta. Con mi experiencia en desarrollo, fusiono habilidades para construir desde interfaces de usuario hasta sistemas complejos, utilizando tecnologías de vanguardia."
+          description="Tu proyecto necesita una solución que combine un diseño atractivo con una funcionalidad sólida. Con mi experiencia en desarrollo, integro habilidades para crear desde interfaces de usuario intuitivas hasta sistemas complejos, utilizando tecnologías de última generación."
           icon={FcCommandLine}
           size={40}
         />

@@ -31,9 +31,12 @@ function Hero() {
       <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center mx-5">
         <div className="py-10">
           <h1 className="text-5xl xl:text-6xl text-left font-thin leading-[140%] uppercase">
-            Transforma
-            <strong className="text-black font-bold leading-[140%]"> tu idea</strong> en una
-            presencia online{" "}
+            Convierte
+            <strong className="text-black font-bold leading-[140%]">
+              {" "}
+              tu idea
+            </strong>{" "}
+            en una presencia online{" "}
             <span className="text-black font-bold leading-[140%]">
               impactante
             </span>

@@ -77,7 +77,7 @@ function ContactUs() {
           <input
             {...register("user_email")}
             className="border-2 rounded-sm border-black w-[90%] p-4 shadow-md"
-            placeholder="Tu correo"
+            placeholder="Tu correo electrónico"
           />
           {errors.user_email && (
             <p className="text-red-500 ml-5 self-start">
@@ -88,7 +88,7 @@ function ContactUs() {
           <textarea
             {...register("message")}
             className="border-2 rounded-sm border-black w-[90%] h-52 lg:h-32 p-4 shadow-md"
-            placeholder="Contame sobre tu proyecto..."
+            placeholder="Cuéntame sobre tu proyecto..."
           />
 
           {isSent ? (
@@ -117,8 +117,8 @@ function ContactUs() {
           <strong>Realidad</strong>
         </h1>
         <p className="lg:mx-0 text-lg lg:text-xl mt-10 text-gray-500">
-          Eleva tu negocio con una poderosa presencia online diseñada para
-          impulsar tus ventas, mejorar tu imagen de marca y llegar a más
+          Impulsa tu negocio con una potente presencia online diseñada para
+          aumentar tus ventas, mejorar tu imagen de marca y alcanzar a más
           clientes.
         </p>
 
