@@ -48,7 +48,7 @@ function Pricing() {
               </span>
               <div className="flex justify-end items-end text-4xl font-black leading-none text-white lg:text-6xl">
                 <span className="flex items-center gap-3">
-                  <span>€ 299</span><span className="md:text-[28px] text-[18px] mb-8 underline">99</span>{" "}
+                  <span>€ 499</span><span className="md:text-[28px] text-[18px] mb-8 underline">99</span>{" "}
                 </span>
               </div>
 
