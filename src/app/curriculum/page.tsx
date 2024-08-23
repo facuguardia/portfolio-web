@@ -39,6 +39,14 @@ import {
 import React from "react";
 
 const Curriculum = () => {
+  const handleEmail = () => {
+    const email = "facuguar12@gmail.com";
+    const subject = encodeURIComponent("Contacto desde facutech.com");
+
+    const newWindow: any = window.open();
+
+    newWindow.location.href = `mailto:${email}?subject=${subject}`;
+  };
   return (
     <div className="min-h-screen container mx-auto grid grid-cols-1 md:grid-cols-12 bg-background-secondary mt-10 lg:mt-24 mb-8">
       {/* barra lateral */}
@@ -63,9 +71,7 @@ const Curriculum = () => {
               <h1 className="text-4xl uppercase font-bold tracking-[2px]">
                 Guardia
               </h1>
-              <p className="text-muted-foreground">
-                Developer Web & Mobile
-              </p>
+              <p className="text-muted-foreground">Developer Web & Mobile</p>
             </div>
           </div>
           {/* datos contacto */}
@@ -80,9 +86,7 @@ const Curriculum = () => {
                   <MdOutlinePhoneIphone />{" "}
                 </div>
                 <Link href="https://bit.ly/facutech-wsp" target="_blank">
-                <span className="text-muted-foreground">
-                  +34 6 334 10299
-                </span>
+                  <span className="text-muted-foreground">+34 6 334 10299</span>
                 </Link>
               </li>
               <li className="inline-flex items-center gap-2 mb-4 text-sm">
@@ -90,7 +94,10 @@ const Curriculum = () => {
                   {" "}
                   <MdOutlineEmail />
                 </div>
-                <span className="text-muted-foreground">
+                <span
+                  className="text-muted-foreground cursor-pointer"
+                  onClick={handleEmail}
+                >
                   facundo.guardia@facutech.com
                 </span>
               </li>
@@ -98,9 +105,7 @@ const Curriculum = () => {
                 <div>
                   <MdOutlineLocationOn />
                 </div>
-                <span className="text-muted-foreground">
-                  Motril - España
-                </span>
+                <span className="text-muted-foreground">Motril - España</span>
               </li>
             </ul>
           </div>
