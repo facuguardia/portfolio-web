@@ -27,7 +27,7 @@ function Pricing() {
                 <br />
                 <br />
                 Únete a la comunidad de emprendedores exitosos y haz que tu
-                marca se destaque. {" "}
+                marca se destaque.{" "}
                 <span className="text-black font-medium">
                   ¡Es tu momento de triunfar!
                 </span>
@@ -37,8 +37,11 @@ function Pricing() {
 
           {/* Card */}
           <div className="w-full xl:w-1/3 md:w-2/6">
-            <div className="flex flex-col h-full p-8 bg-black shadow-xl rounded-xl">
-              <span className="flex justify-end items-center mb-4 font-bold tracking-widest text-white uppercase text-2xl">
+            <div className="relative flex flex-col h-full p-8 bg-black shadow-xl rounded-xl">
+              <div className="text-black text-2xl font-bold shadow-sm absolute -top-5 right-4 py-2 px-4 rounded-md bg-green-500">
+                50% Off
+              </div>
+              <span className="flex justify-end items-center mt-5 mb-4 font-bold tracking-widest text-white uppercase text-2xl">
                 {" "}
                 Pack Emprendedor{" "}
               </span>
@@ -48,7 +51,11 @@ function Pricing() {
               </span>
               <div className="flex justify-end items-end text-4xl font-black leading-none text-white lg:text-6xl">
                 <span className="flex items-center gap-3">
-                  <span>€ 499</span><span className="md:text-[28px] text-[18px] mb-8 underline">99</span>{" "}
+                  <span className="md:text-4xl text-lg">€ </span>
+                  <span>499</span>
+                  <span className="md:text-[28px] text-[18px] mb-8 underline">
+                    99
+                  </span>{" "}
                 </span>
               </div>
 

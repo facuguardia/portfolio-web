@@ -39,7 +39,7 @@ export const ButtonMobile = () => {
         }`}
       >
         {/* Menu Mobile */}
-        <nav className="flex flex-col items-center justify-center w-screen h-screen">
+        <div className="flex flex-col items-center justify-center w-screen h-screen">
           {/* item 1 */}
           <Link
             href="/"
@@ -100,7 +100,7 @@ export const ButtonMobile = () => {
               Contacto
             </span>
           </Link>
-        </nav>
+        </div>
       </div>
     </div>
   );
