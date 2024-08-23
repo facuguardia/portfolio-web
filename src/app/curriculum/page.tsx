@@ -86,7 +86,9 @@ const Curriculum = () => {
                   <MdOutlinePhoneIphone />{" "}
                 </div>
                 <Link href="https://bit.ly/facutech-wsp" target="_blank">
-                  <span className="text-muted-foreground">+34 6 334 10299</span>
+                  <span className="text-muted-foreground hover:text-blue-500 transition-all duration-300 ease-in-out">
+                    +34 6 334 10299
+                  </span>
                 </Link>
               </li>
               <li className="inline-flex items-center gap-2 mb-4 text-sm">
@@ -95,10 +97,10 @@ const Curriculum = () => {
                   <MdOutlineEmail />
                 </div>
                 <span
-                  className="text-muted-foreground cursor-pointer"
+                  className="text-muted-foreground cursor-pointer hover:text-blue-500 transition-all duration-300 ease-in-out"
                   onClick={handleEmail}
                 >
-                  facundo.guardia@facutech.com
+                  facuguar12@gmail.com
                 </span>
               </li>
               <li className="inline-flex items-center gap-2 mb-4 text-sm">
