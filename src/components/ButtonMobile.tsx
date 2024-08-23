@@ -6,10 +6,7 @@ import { RiMenuFill, RiCloseFill } from "react-icons/ri";
 
 export const ButtonMobile = () => {
   const [menu, setMenu] = useState(false);
-
-  const closeMenu = () => {
-    setMenu(false);
-  };
+  const [activeItem, setActiveItem] = useState("/");
 
   useEffect(() => {
     if (menu) {
@@ -18,6 +15,16 @@ export const ButtonMobile = () => {
       document.body.style.overflow = 'auto';
     }
   }, [menu]);
+
+  const closeMenu = () => {
+    setMenu(false);
+  };
+
+  const handleItemClick = (href: any) => {
+    setActiveItem(href);
+    closeMenu();
+  };
+
 
   return (
     <div>
@@ -43,8 +50,10 @@ export const ButtonMobile = () => {
           {/* item 1 */}
           <Link
             href="/"
-            className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
-            onClick={closeMenu}
+            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+              activeItem === "/" ? "text-green-500" : "text-white"
+            }`}
+            onClick={() => handleItemClick("/")}
           >
             <span className="flex items-center gap-3 text-2xl font-medium">
               Inicio
@@ -53,8 +62,10 @@ export const ButtonMobile = () => {
           {/* item 2 */}
           <Link
             href="#about"
-            className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
-            onClick={closeMenu}
+            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+              activeItem === "#about" ? "text-green-500" : "text-white"
+            }`}
+            onClick={() => handleItemClick("#about")}
           >
             <span className="flex items-center gap-3 text-2xl font-medium">
               Acerca de
@@ -63,28 +74,22 @@ export const ButtonMobile = () => {
           {/* item 3 */}
           <Link
             href="#projects"
-            className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
-            onClick={closeMenu}
+            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+              activeItem === "#project" ? "text-green-500" : "text-white"
+            }`}
+            onClick={() => handleItemClick("#project")}
           >
             <span className="flex items-center gap-3 text-2xl font-medium">
               Proyectos
             </span>
           </Link>
-          {/* item 4 */}
-          {/* <Link
-            href="#experience"
-            className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
-            onClick={closeMenu}
-          >
-            <span className="flex items-center gap-3 text-2xl font-medium">
-              Experiencia
-            </span>
-          </Link> */}
           {/* item 5 */}
           <Link
             href="#pricing"
-            className="w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 text-white hover:text-gray-500"
-            onClick={closeMenu}
+            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+              activeItem === "#pricing" ? "text-green-500" : "text-white"
+            }`}
+            onClick={() => handleItemClick("#pricing")}
           >
             <span className="flex items-center gap-3 text-2xl font-medium">
               Packs
@@ -93,8 +98,10 @@ export const ButtonMobile = () => {
           {/* item 6 */}
           <Link
             href="#contact"
-            className="w-[70%] h-auto flex justify-start  px-4 py-3 text-white hover:text-gray-500"
-            onClick={closeMenu}
+            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+              activeItem === "#contact" ? "text-green-500" : "text-white"
+            }`}
+            onClick={() => handleItemClick("#contact")}
           >
             <span className="flex items-center gap-3 text-2xl font-medium">
               Contacto

@@ -26,7 +26,7 @@ export const MenuMobile = () => {
   }, []);
 
   return (
-    <div className={`lg:hidden fixed w-screen flex justify-between px-3 py-4 bg-white  border-b-2 z-10 transition-shadow duration-300 ${shadow ? 'shadow-md' : ''}`}>
+    <div className={`lg:hidden top-0 left-0 right-0  fixed w-screen flex justify-between px-3 py-4 bg-white  border-b-2 z-10 transition-shadow duration-300 ${shadow ? 'shadow-md' : ''}`}>
       <div className="ml-3">
         <Link href="#hero">
           <Image src={Logo} alt="logo facutech" height={100} width={100} />
