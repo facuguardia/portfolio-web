@@ -22,7 +22,7 @@ const PackDetails: React.FC = () => {
   return (
     <div>
       <section className="bg-black my-20 h-[300px] md:h-[450px] flex justify-center items-center">
-        <div className="py-8 px-10 mx-auto max-w-screen-xl text-center lg:py-16 z-10">
+        <div className="py-8 px-10 mx-auto max-w-screen-xl text-center lg:py-16 z-90">
           <h1 className="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             Bienvenido al Pack Emprendedor
             <br />

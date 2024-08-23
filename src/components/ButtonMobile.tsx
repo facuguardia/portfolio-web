@@ -10,9 +10,9 @@ export const ButtonMobile = () => {
 
   useEffect(() => {
     if (menu) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     }
   }, [menu]);
 
@@ -24,7 +24,6 @@ export const ButtonMobile = () => {
     setActiveItem(href);
     closeMenu();
   };
-
 
   return (
     <div>
@@ -50,7 +49,7 @@ export const ButtonMobile = () => {
           {/* item 1 */}
           <Link
             href="/"
-            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+            className={`w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 ${
               activeItem === "/" ? "text-green-500" : "text-white"
             }`}
             onClick={() => handleItemClick("/")}
@@ -62,7 +61,7 @@ export const ButtonMobile = () => {
           {/* item 2 */}
           <Link
             href="#about"
-            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+            className={`w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 ${
               activeItem === "#about" ? "text-green-500" : "text-white"
             }`}
             onClick={() => handleItemClick("#about")}
@@ -74,7 +73,7 @@ export const ButtonMobile = () => {
           {/* item 3 */}
           <Link
             href="#projects"
-            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+            className={`w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 ${
               activeItem === "#project" ? "text-green-500" : "text-white"
             }`}
             onClick={() => handleItemClick("#project")}
@@ -86,7 +85,7 @@ export const ButtonMobile = () => {
           {/* item 5 */}
           <Link
             href="#pricing"
-            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+            className={`w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 ${
               activeItem === "#pricing" ? "text-green-500" : "text-white"
             }`}
             onClick={() => handleItemClick("#pricing")}
@@ -98,7 +97,7 @@ export const ButtonMobile = () => {
           {/* item 6 */}
           <Link
             href="#contact"
-            className={`w-[70%] h-auto flex justify-start boder-b-[2px] border-gray-300 px-4 py-3 ${
+            className={`w-[70%] h-auto flex justify-start border-b-[1px] border-gray-300 px-4 py-3 ${
               activeItem === "#contact" ? "text-green-500" : "text-white"
             }`}
             onClick={() => handleItemClick("#contact")}
