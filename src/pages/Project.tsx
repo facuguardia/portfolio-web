@@ -15,23 +15,23 @@ function Project() {
     >
       <div className="container mx-auto">
         {/* Project 1 */}
-        <CardProject
+        {/* <CardProject
           title="Poke App"
           description="La Poke App es una aplicación móvil que permite a los usuarios explorar fácilmente un listado completo de Pokémon. Con su funcionalidad de scroll infinito y opciones de filtrado, los usuarios pueden encontrar rápidamente su Pokémon favorito por nombre o ID. La aplicación ofrece una experiencia intuitiva y atractiva, aprovechando al máximo la API de Pokémon para proporcionar información detallada y accesible sobre cada criatura."
           urlDeploy="https://www.youtube.com/watch?v=UCJ6Z6uGsbg"
           urlGithub="https://github.com/facuguardia/PokedexNative"
           image={Image1}
-        />
+        /> */}
 
         {/* Project 2 */}
 
-        <CardProject
+        {/* <CardProject
           title="Movie App"
           description="La Movie App ofrece una experiencia cinematográfica única con una interfaz atractiva y dinámica. El fondo cambia al deslizarse entre las tarjetas de películas, creando una experiencia visual inmersiva. Cada película incluye detalles completos, proporcionando a los usuarios una visión detallada de la información cinematográfica. Desarrollada para aprovechar al máximo la API de Themoviedb, la Movie App combina funcionalidad y diseño para satisfacer a los amantes del cine."
           urlDeploy="https://www.youtube.com/watch?v=HkO_-qnwKtM"
           urlGithub="https://github.com/facuguardia/CineApp"
           image={Image2}
-        />
+        /> */}
 
         {/* Project 3 */}
         <CardProject
