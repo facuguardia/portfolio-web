@@ -1,13 +1,10 @@
 import React from "react";
 import CardExperience from "../components/CardExperience";
 
-import { FcGoogle } from "react-icons/fc";
-import { FcAndroidOs } from "react-icons/fc";
-import { FcCommandLine } from "react-icons/fc";
-
 import { FcSmartphoneTablet } from "react-icons/fc";
+import { FcShop } from "react-icons/fc"
+import { FcGoogle } from "react-icons/fc";
 
-import { FcShop } from "react-icons/fc";
 
 function Experience() {
   return (
