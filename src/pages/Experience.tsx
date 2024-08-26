@@ -5,28 +5,24 @@ import { FcGoogle } from "react-icons/fc";
 import { FcAndroidOs } from "react-icons/fc";
 import { FcCommandLine } from "react-icons/fc";
 
+import { FcSmartphoneTablet } from "react-icons/fc";
+
+import { FcShop } from "react-icons/fc";
+
 function Experience() {
   return (
     <div
       id="experience"
-      className=" bg-black w-screen h-full flex flex-col lg:flex-row justify-evenly items-center pt-24 pb-24 px-3 gap-8 lg:gap-4"
+      className=" bg-black w-screen h-full flex flex-col md:flex-row justify-evenly items-center pt-24 pb-24 px-3 gap-10 md:gap-4"
     >
       <div>
-        <CardExperience
-          title="Apps Móviles"
-          icon={FcAndroidOs}
-          size={130}
-        />
+        <CardExperience title="E-Commerce" icon={FcShop} size={120} />
       </div>
       <div>
-        <CardExperience
-          title="Desarrollo FullStack"
-          icon={FcCommandLine}
-          size={130}
-        />
+        <CardExperience title="Apps" icon={FcSmartphoneTablet} size={120} />
       </div>
       <div>
-        <CardExperience title="Desarrollo Web" icon={FcGoogle} size={130} />
+        <CardExperience title="WebApps" icon={FcGoogle} size={120} />
       </div>
     </div>
   );
