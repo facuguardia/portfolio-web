@@ -5,6 +5,7 @@ import Image2 from "../assets/project-2.jpg";
 import Image3 from "../assets/project-3.jpeg";
 import Image4 from "../assets/project-4.jpg";
 import Image5 from "../assets/project-5.jpeg";
+import Image6 from "../assets/project-6.png";
 import { CardProject } from "@/components/CardProject";
 
 function Project() {
@@ -58,6 +59,15 @@ function Project() {
           urlDeploy="#"
           urlGithub="#"
           image={Image5}
+        />
+
+        {/* Project 5 */}
+        <CardProject
+          title="Company Manager Panel - SaaS"
+          description="Nuestro sistema SaaS simplifica la gestión empresarial y el análisis de interacciones digitales. Desde un único panel, puedes monitorear la tasa de rebote en redes sociales y sitios web, administrar la información de cada empresa, y agendar tareas o eventos asignados a ellas. Además, el panel de Analíticas ofrece un gráfico claro de eventos por empresa, facilitando un seguimiento eficaz y una toma de decisiones basada en datos. Todo está diseñado para optimizar la organización y crecimiento de tu negocio."
+          urlDeploy="https://admin-companies.netlify.app"
+          urlGithub="https://github.com/facuguardia/admin-companies"
+          image={Image6}
         />
       </div>
     </div>

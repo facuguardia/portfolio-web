@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      {/* <Skills /> */}
-      <Experience />
+      <Skills />
+      {/* <Experience /> */}
       <About />
       <Project />
       <Pricing />
