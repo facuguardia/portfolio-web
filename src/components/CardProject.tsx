@@ -1,16 +1,15 @@
-'use client'
+"use client";
 
 import React from "react";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
-import { BiLinkExternal, BiLogoGithub } from "react-icons/bi";
+import { BiLinkExternal } from "react-icons/bi";
 
 interface CardProjectProps {
   title: string;
   description: string;
   urlDeploy: string;
-  urlGithub: string;
   image: StaticImageData;
 }
 
@@ -18,7 +17,6 @@ export const CardProject = ({
   title,
   description,
   urlDeploy,
-  urlGithub,
   image,
 }: CardProjectProps) => {
   return (
@@ -40,17 +38,11 @@ export const CardProject = ({
           <p className="mr-5 text-gray-300 font-light">{description}</p>
         </div>
         <div className="flex items-center justify-start gap-3">
-          <Link
-            href={urlDeploy}
-            target="_blank"
-          >
-            <BiLinkExternal size={20} className="text-gray-300 hover:text-green-500 transition-all duration-300 ease-in-out" />
-          </Link>
-          <Link
-            href={urlGithub}
-            target="_blank"
-          >
-            <BiLogoGithub size={20} className="text-gray-300 hover:text-green-500 transition-all duration-300 ease-in-out" />
+          <Link href={urlDeploy} target="_blank">
+            <BiLinkExternal
+              size={20}
+              className="text-gray-300 hover:text-green-500 transition-all duration-300 ease-in-out"
+            />
           </Link>
         </div>
       </div>
